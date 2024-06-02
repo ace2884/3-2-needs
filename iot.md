@@ -396,9 +396,7 @@ Mobile Cloud Computing (MCC) is an infrastructure where both data storage and da
    - **Pros:** Cost sharing, compliance with industry standards, collaborative opportunities.
    - **Cons:** Limited control compared to private cloud, shared resources.
 
-### 9. Draw the Cloud Middleware Diagram
-
-Unfortunately, I cannot draw diagrams directly in this text interface. However, here is a textual representation:
+### 9. Draw the Cloud Middleware 
 
 ```
 +----------------------+
@@ -419,6 +417,8 @@ Unfortunately, I cannot draw diagrams directly in this text interface. However, 
 | (Servers, Networks)  |
 +----------------------+
 ```
+
+
 
 ### 10. Describe Evolution of IoT in the Cloud
 
