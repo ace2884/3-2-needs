@@ -215,7 +215,55 @@ o	Transaction Fee that the sender is willing to pay for the transaction.
 5. Crowdfunding
 6. Domain names
 
+### Discuss any three (Metamask, Myether, Coinbase) EVM Wallets
 
+#### 1. MetaMask
+
+
+MetaMask is a widely-used Ethereum wallet available as a browser extension and mobile app. It allows users to manage private keys and interact with decentralized applications (dApps).
+
+**Key Features:**
+- **Browser Integration:** Works with Chrome, Firefox, Brave, and Edge.
+- **User-Friendly Interface:** Simple for both beginners and advanced users.
+- **Security:** Private keys are encrypted and stored locally; supports hardware wallets.
+- **dApp Access:** Seamless interaction with DeFi platforms and NFT marketplaces.
+
+**Drawbacks:**
+- **Phishing Risks:** Susceptible to phishing attacks due to its nature as a browser extension.
+- **Privacy Concerns:** Being a hot wallet, it's less secure compared to cold storage.
+
+#### 2. MyEtherWallet (MEW)
+
+
+MyEtherWallet is an open-source, web-based interface for interacting with the Ethereum blockchain. It provides a platform for managing funds, smart contracts, and dApps.
+
+**Key Features:**
+- **Web Interface:** Allows creation and management of Ethereum wallets.
+- **Hardware Wallet Support:** Compatible with Ledger, Trezor, and others for enhanced security.
+- **Customization:** Users can set custom gas fees for transactions.
+- **MEWconnect:** Companion mobile app for secure wallet access.
+
+**Drawbacks:**
+- **Security:** Requires vigilance against phishing sites.
+- **Complexity:** Interface may be overwhelming for new users.
+
+#### 3. Coinbase Wallet
+
+
+Coinbase Wallet is a mobile app and browser extension developed by Coinbase. It allows users to manage their crypto assets and interact with Ethereum dApps.
+
+**Key Features:**
+- **Mobile and Browser Extension:** Available for iOS, Android, and as a browser extension.
+- **Security:** Private keys are stored locally with cloud backup options.
+- **Integration with Coinbase:** Easy transfer of funds between Coinbase Wallet and Coinbase exchange accounts.
+- **dApp Access:** Direct access to DeFi applications and NFT marketplaces.
+
+**Drawbacks:**
+- **Privacy:** Cloud backups introduce potential security risks.
+- **Ecosystem Dependence:** Heavily integrated with Coinbase services.
+
+
+ 
 
 ## Smart Contracts in Blockchain
 
