@@ -200,6 +200,22 @@ o	Transaction Fee that the sender is willing to pay for the transaction.
 5.	Decentralized autonomous organizations (DAOs): It is a decentralized organization that works in a democratic and decentralized fashion. DAO relies on smart contracts for decision-making or decentralized voting systems within the organization.
 
 
+### Type of Ethereum Accounts
+
+•	**Externally owned account (EOA):** Externally owned accounts are controlled by private keys. Each EOA has a public-private key pair. The users can send messages by creating and signing transactions.
+
+•	**Contract Account:** Contract accounts are controlled by contract codes. These codes are stored with the account. Each contract account has an ether balance associated with it. The contract code of these accounts gets activated every time a transaction from an EOA or a message from another contract is received by it. When the contract code activates, it allows to read/write the message to the local storage, send messages and create contracts.
+
+
+### Real-World Applications of Ethereum
+1. Voting
+2. Agreement
+3. Banking system
+4. Shipping
+5. Crowdfunding
+6. Domain names
+
+
 
 ## Smart Contracts in Blockchain
 
@@ -238,20 +254,7 @@ o	Transaction Fee that the sender is willing to pay for the transaction.
 7.  Manges information
 8.  Multi-signature accounts
 
-### Type of Ethereum Accounts
 
-•	**Externally owned account (EOA):** Externally owned accounts are controlled by private keys. Each EOA has a public-private key pair. The users can send messages by creating and signing transactions.
-
-•	**Contract Account:** Contract accounts are controlled by contract codes. These codes are stored with the account. Each contract account has an ether balance associated with it. The contract code of these accounts gets activated every time a transaction from an EOA or a message from another contract is received by it. When the contract code activates, it allows to read/write the message to the local storage, send messages and create contracts.
-
-
-### Real-World Applications of Ethereum
-1. Voting
-2. Agreement
-3. Banking system
-4. Shipping
-5. Crowdfunding
-6. Domain names
 
 
 ### Smart Contract Working
