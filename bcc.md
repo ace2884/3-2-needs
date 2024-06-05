@@ -137,4 +137,238 @@
 
 5. **Proof of Authority (PoA)**:
    Proof of Authority is a consensus mechanism where validators are chosen based on their reputation or authority within the network. Validators are typically known entities or organizations approved by the network participants. In PoA, validators are responsible for creating new blocks and validating transactions. PoA is often used in private or consortium blockchains where trust among participants is established, and strict governance is maintained. It is more efficient than PoW and PoS in terms of energy consumption and scalability.
+
+
+# unit 3 part B
+
+## what is Ethereum
+
+Ethereum is a Blockchain network that introduced a built-in Turing-complete programming language that can be used for creating various decentralized applications(also called Dapps). The Ethereum network is fueled by its own cryptocurrency called ‘ether’. 
+
+•	The Ethereum network is currently famous for allowing the implementation of smart contracts. Smart contracts can be thought of as ‘cryptographic bank lockers’ which contain certain values. 
+
+•	These cryptographic lockers can only be unlocked when certain conditions are met. 
+
+•	Unlike bitcoin, Ethereum is a network that can be applied to various other sectors. 
+
+•	Ethereum is often called Blockchain 2.0 since it proved the potential of blockchain technology beyond the financial sector. 
+
+•	The consensus mechanism used in Ethereum is Proof of Stakes(PoS), which is more energy efficient when compared to that used in the Bitcoin network, that is, Proof of Work(PoW). PoS depends on the amount of stake a node holds. 
+
+### Drawbacks of Ethereum
+
+•	**Complicated programming language**: Learning solidity from programming smart contracts on Ethereum can be challenging and one of the main concerns is the scarcity of beginner-friendly classes.
+
+•	**Volatile cryptocurrency**: Ethereum investing can be risky as the price of Ether is very volatile, resulting in significant gains as well as a significant loss.
+
+•	**Low transaction rate**: Bitcoin has an average transaction rate of 7TPS and Ethereum has an average speed of 15 TPS which is almost double that of bitcoin but it is still not enough.
+
+### Benefits of Ethereum
+
+•	Availability
+•	Privacy
+•  Security 
+•	Less ambiguity
+•	Rapid deployment
+•	Network size 
+•	Data coordination
+
+
+### How Does Ethereum Work?
+Ethereum implements an execution environment called Ethereum Virtual Machine (EVM).
+
+•	When a transaction triggers a smart contract all the nodes of the network will execute every instruction.
+
+•	All the nodes will run The EVM as part of the block verification, where the nodes will go through the transactions listed in the block and runs the code as triggered by the transaction in the EVM.
+
+•	All the nodes on the network must perform the same calculations for keeping their ledgers in sync.
+
+•	Every transaction must include:
+o	Gas limit.
+o	Transaction Fee that the sender is willing to pay for the transaction.
+
+•	If the total amount of gas needed to process the transaction is less than or equal to the gas limit then the transaction will be processed and if the total amount of the gas needed is more than the gas limit then the transaction will not be processed the fees are still lost.
+
+•	Thus it is safe to send transactions with the gas limit above the estimate to increase the chances of getting it processed.
+
+### Characteristics of Ethereum Blockchain
+
+1.	Smart contracts: Ethereum allows the creation and deployment of smart contracts. Smart contracts are created mainly using a programming language called solidity. Solidity is an Object Oriented Programming language that is comparatively easy to learn. 
+2.	Ethereum Virtual Machine (EVM): It is designed to operate as a runtime environment for compiling and deploying Ethereum-based smart contracts.
+3.	Ether: Ether is the cryptocurrency of the Ethereum network. It is the only acceptable form of payment for transaction fees on the Ethereum network. 
+4.	Decentralized applications (Daaps): Dapp has its backend code running on a decentralized peer-to-peer network. It can have a frontend and user interface written in any language to make calls and query data from its backend. They operate on Ethereum and perform the same function irrespective of the environment in which they get executed.
+5.	Decentralized autonomous organizations (DAOs): It is a decentralized organization that works in a democratic and decentralized fashion. DAO relies on smart contracts for decision-making or decentralized voting systems within the organization.
+
+
+
+## Smart Contracts in Blockchain
+
+  A Smart Contract (or cryptocontract) is a computer program that directly and automatically controls the transfer of digital assets between the parties under certain conditions. A smart contract works in the same way as a traditional contract while also automatically enforcing the contract. Smart contracts are programs that execute exactly as they are set up(coded, programmed) by their creators. Just like a traditional contract is enforceable by law, smart contracts are enforceable by code.   
+
+• The bitcoin network was the first to use some sort of smart contract by using them to transfer value from one person to another. 
+
+•	The smart contract involved employs basic conditions like checking if the amount of value to transfer is actually available in the sender account. 
+
+•	Later, the Ethereum platform emerged which was considered more powerful, precisely because the developers/programmers could make custom contracts in a Turing-complete language.
+
+•	It is to be noted that the contracts written in the case of the bitcoin network were written in a Turing-incomplete language, restricting the potential of smart contracts implementation in the bitcoin network. 
+
+•	There are some common smart contract platforms like Ethereum, Solana, Polkadot, Hyperledger fabric, etc.
+
+### Features of Smart Contracts
+
+1. Distributed
+2. Deterministic
+3. Immutable
+4. Autonomy
+5. Customizable
+6. Transparent
+7. Trustless
+8. Self-verifying
+9. Self-enforcing
+
+### Capabilities of Smart Contracts
+
+1.  Accuracy
+2.  Automation
+3.  Speed
+4.  Backup
+5.  Security
+6.  Saving
+7.  Manges information
+8.  Multi-signature accounts
+
+### Type of Ethereum Accounts
+
+•	**Externally owned account (EOA):** Externally owned accounts are controlled by private keys. Each EOA has a public-private key pair. The users can send messages by creating and signing transactions.
+
+•	**Contract Account:** Contract accounts are controlled by contract codes. These codes are stored with the account. Each contract account has an ether balance associated with it. The contract code of these accounts gets activated every time a transaction from an EOA or a message from another contract is received by it. When the contract code activates, it allows to read/write the message to the local storage, send messages and create contracts.
+
+
+### Real-World Applications of Ethereum
+1. Voting
+2. Agreement
+3. Banking system
+4. Shipping
+5. Crowdfunding
+6. Domain names
+
+
+### Smart Contract Working
+
+• Identify Agreement: Multiple parties identify the cooperative opportunity and desired outcomes and agreements could include business processes, asset swaps, etc.
+
+•	Set conditions: Smart contracts could be initiated by parties themselves or when certain conditions are met like financial market indices, events like GPS locations, etc.
+
+•	Code business logic: A computer program is written that will be executed automatically when the conditional parameters are met.
+
+•	Encryption and blockchain technology: Encryption provides secure authentication and transfer of messages between parties relating to smart contracts.
+
+•	Execution and processing: In blockchain iteration, whenever consensus is reached between the parties regarding authentication and verification then the code is executed and the outcomes are memorialized for compliance and verification.
+
+•	Network updates: After smart contracts are executed, all the nodes on the network update their ledger to reflect the new state. Once the record is posted and verified on the blockchain network, it cannot be modified, it is in append mode only.
+
+
+### Applications of Smart Contracts
+
+1.	Real Estate: Reduce money paid to the middleman and distribute between the parties actually involved. For example, a smart contract to transfer ownership of an apartment once a certain amount of resources have been transferred to the seller’s account(or wallet).
+2.	Vehicle ownership: A smart contract can be deployed in a blockchain that keeps track of vehicle maintenance and ownership. The smart contract can, for example, enforce vehicle maintenance service every six months; failure of which will lead to suspension of driving license.
+4.	Music Industry: The music industry could record the ownership of music in a blockchain. A smart contract can be embedded in the blockchain and royalties can be credited to the owner’s account when the song is used for commercial purposes. It can also work in resolving ownership disputes.
+5.	Government elections: Once the votes are logged in the blockchain, it would be very hard to decrypt the voter address and modify the vote leading to more confidence against the ill practices.
+6.	Management: The blockchain application in management can streamline and automate many decisions that are taken late or deferred. Every decision is transparent and available to any party who has the authority(an application on the private blockchain). For example, a smart contract can be deployed to trigger the supply of raw materials when 10 tonnes of plastic bags are produced.
+7.	Healthcare: Automating healthcare payment processes using smart contracts can prevent fraud. Every treatment is registered on the ledger and in the end, the smart contract can calculate the sum of all the transactions. The patient can’t be discharged from the hospital until the bill has been paid and can be coded in the smart contract
+
+### VALUE TYPES
+•	Value types are data types that hold a value directly and are not pointers to memory locations.
+•	Value types in Solidity are passed by value.
+•	Value type data types in solidity are listed below:
+    1. Boolean : True or False
+    2. Integer : int & uint
+    3. Address : Size of Ethereum address(20 bytes)
+    4. Bytes : Character set(1-32 length)
+    5. Enums : User defined data types
+
     
+#### ARRAYS
+
+•	Arrays are data structures that store the fixed collection of elements of the same data types in which each and every element has a specific location called index.
+
+•	Arrays can be used in a wide range of Solidity applications, from storing lists of user addresses or transaction data to implementing more complex data structures like maps and graphs. 
+
+•	However, care must be taken to ensure that array operations are gas-efficient and do not exceed the gas limit for a particular transaction.
+
+•	Syntax : <data type> <array name> [size] = <initialization>
+
+**TYPES OF ARRAYS**
+
+**1. Fixed size arrays**
+•	The size of the array should be predefined. The total number of elements should not exceed the size of the array. 
+•	Ex : - uint[6] data1;
+
+**2. Dynamic arrays**
+   
+•	The size of the array is not predefined when it is declared. As the elements are added the size of array changes and at the runtime, the size of the array will be determined.
+
+•	Ex : -  int[ ] data1;
+
+#### FUNCTIONS
+
+•	Functions are blocks of code that perform a specific task, such as updating data on the blockchain or returning a value to the user.
+
+•	They can be declared as public, private, and internal, which determine whether they can be called by other contracts or only by the contract itself.
+
+•	They have different types of return values, including void, integers, Booleans, or custom data structures.
+
+•	They can also include parameters, which are inputs that are passed to the function.
+
+•	Synatx :    function function_name(parameter_list) scope
+   	       returns(return_type){
+                               //block of code
+}
+
+•	Functions can be used for a wide range of purposes, from simple data manipulation to complex business logic and smart contract interactions, and they are a key component of writing efficient and secure smart contracts on the Ethereum blockchain.
+
+•	Ex :-  function add() public pure returns(uint) {
+           		unit num1 = 10;
+		uint num2  = 16;
+		uint sum = num1 + num2;
+		return sum;
+	 }
+  
+#### STRUCTS
+
+•	Structs are user-defined data structures that can contain multiple variables of different data types.
+
+•	They can be defined within a contract and can be used to represent complex data types, such as a user profile or a transaction record.
+
+•	Structs can be passed as parameters to functions and returned as values, allowing for the creation of more flexible and modular code structures in Solidity smart contracts.
+
+•	Syntax :- struct <structure_name>{
+		<data type> variable_1;
+		<data type> variable_2;
+	      }
+       
+•	Structs in Solidity can also include functions, allowing for the definition of complex behaviors and interactions between different data structures.
+
+•	Ex : - struct student{
+		string name;
+		string subject;
+		uint8 marks;
+	}
+#### MAPPING
+•	Mapping is a key-value data structure that allows for efficient storage and retrieval of data on the Ethereum blockchain.
+
+•	It can be defined within a contract and can be used to associate a key of one data type with a value of another data type.
+
+•	They are similar to dictionaries or hash tables in other programming languages, and they can be used to store a wide range of data, including user balances, transaction records, and smart contract states.
+
+•	Syntax : mapping(key => value) <access specifier>  <name>;
+
+•	They are used in combination with other data structures like arrays and structs, allowing for the creation of more complex data structures like maps and graphs.
+
+•	Mappings in Solidity are gas-efficient and offer a fast and reliable way to store and retrieve data on the Ethereum blockchain, making them a popular choice for smart contract developers.
+
+•	Ex :- mapping(
+	    address => student) result;
+	    address[] public student_result;
+
