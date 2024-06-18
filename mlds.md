@@ -63,6 +63,119 @@ Inverse: A matrix that, when multiplied by the original matrix, results in the i
 
 the shape of the normalization curve, often referred to as the normal distribution curve or bell curve, is symmetrical and bell-shaped. It is characterized by its mean and standard deviation, with most data points clustering around the mean and fewer points appearing as you move away from the mean in either direction. The normal distribution is used in statistics because of its desirable properties, such as the central limit theorem.
 
+# unit -1 long
+
+## Statistical Hypothesis Testing
+
+**Statistical Hypothesis Testing** is a method used to make decisions or inferences about population parameters based on sample data. It involves formulating and testing hypotheses to determine if there is enough evidence to support a specific claim about a population.
+
+#### Key Steps in Hypothesis Testing:
+
+1. **Formulate Hypotheses:**
+   - **Null Hypothesis (H₀):** A statement that there is no effect or no difference. It is the hypothesis that the test seeks to disprove.
+   - **Alternative Hypothesis (H₁ or Ha):** A statement that there is an effect or a difference. It is what the test seeks to provide evidence for.
+
+2. **Select a Significance Level (α):**
+   - The significance level is the probability of rejecting the null hypothesis when it is actually true. Common choices are 0.05, 0.01, or 0.10.
+
+3. **Choose a Test Statistic:**
+   - The test statistic is calculated from the sample data and is used to decide whether to reject the null hypothesis. Common test statistics include t-scores, z-scores, and chi-square values.
+
+4. **Determine the Critical Value or P-value:**
+   - The critical value is a threshold that the test statistic is compared against.
+   - The p-value is the probability of obtaining a test statistic at least as extreme as the one observed, assuming the null hypothesis is true.
+
+5. **Make a Decision:**
+   - **Reject H₀** if the test statistic exceeds the critical value or if the p-value is less than the significance level (α).
+   - **Fail to Reject H₀** if the test statistic does not exceed the critical value or if the p-value is greater than the significance level (α).
+
+6. **Draw a Conclusion:**
+   - Based on the decision, conclude whether there is sufficient evidence to support the alternative hypothesis.
+
+**Example:**
+Testing whether a new drug is more effective than the existing one:
+- H₀: The new drug is not more effective than the existing drug.
+- H₁: The new drug is more effective than the existing drug.
+- Collect data from clinical trials, calculate the test statistic, and make a decision based on the p-value or critical value.
+
+
+## Bayesian Inference
+
+**Bayesian Inference** is a statistical method that applies Bayes' Theorem to update the probability of a hypothesis based on new evidence. It contrasts with frequentist inference by incorporating prior beliefs or knowledge along with the data.
+
+#### Key Concepts in Bayesian Inference:
+
+1. **Prior Distribution (P(H)):**
+   - Represents the initial belief about the parameter before observing the data.
+
+2. **Likelihood (P(E|H)):**
+   - The probability of observing the data given the hypothesis. It represents how well the hypothesis explains the observed data.
+
+3. **Posterior Distribution (P(H|E)):**
+   - The updated probability of the hypothesis after considering the new evidence. It is calculated using Bayes' Theorem:
+     \[
+     P(H|E) = \frac{P(E|H) \cdot P(H)}{P(E)}
+     \]
+
+4. **Marginal Likelihood (P(E)):**
+   - The total probability of observing the data under all possible hypotheses. It acts as a normalizing constant.
+
+#### Process of Bayesian Inference:
+
+1. **Specify the Prior:**
+   - Choose a prior distribution that reflects the initial beliefs about the parameter.
+
+2. **Collect Data and Specify the Likelihood:**
+   - Gather data and formulate the likelihood function based on the data and model.
+
+3. **Apply Bayes' Theorem:**
+   - Calculate the posterior distribution using the prior and likelihood.
+
+4. **Draw Inferences:**
+   - Make decisions or predictions based on the posterior distribution.
+
+**Example:**
+Estimating the probability of rain tomorrow based on past weather patterns and current weather conditions:
+- **Prior:** Belief about the probability of rain based on historical data.
+- **Likelihood:** Probability of current weather conditions given that it will rain.
+- **Posterior:** Updated probability of rain tomorrow considering both the prior and current conditions.
+
+Bayesian inference is powerful because it provides a coherent framework for updating beliefs with new evidence and can handle various types of data and complex models.
+
+
+## Simpson’s Paradox
+
+**Simpson’s Paradox** is a phenomenon in probability and statistics where a trend that appears in several different groups of data reverses or disappears when these groups are combined. This paradox highlights the importance of considering the context and structure of data, as aggregating data without accounting for confounding variables can lead to misleading conclusions.
+
+#### Key Points:
+- **Grouped Data:** When analyzing data separately within different groups, a particular trend or relationship may be observed.
+- **Combined Data:** When the data from these groups are combined, the overall trend may reverse or disappear, leading to a different conclusion.
+- **Confounding Variables:** The paradox often arises due to the presence of confounding variables—factors that influence both the dependent and independent variables in a way that can obscure the true relationship between them.
+
+#### Example:
+Consider a study comparing the effectiveness of two treatments (A and B) for a medical condition across two different hospitals.
+
+- **Hospital 1:**
+  - Treatment A: 80% success rate (40 out of 50 patients).
+  - Treatment B: 90% success rate (45 out of 50 patients).
+
+- **Hospital 2:**
+  - Treatment A: 30% success rate (30 out of 100 patients).
+  - Treatment B: 40% success rate (40 out of 100 patients).
+
+When analyzing each hospital separately, Treatment B appears to be more effective than Treatment A.
+
+- **Combined Data:**
+  - Treatment A: 70 out of 150 patients succeeded.
+  - Treatment B: 85 out of 150 patients succeeded.
+
+Overall success rates:
+- Treatment A: \( \frac{70}{150} \approx 46.7\% \)
+- Treatment B: \( \frac{85}{150} \approx 56.7\% \)
+
+However, if the proportion of patients in each hospital is not considered, a paradoxical result might appear, where Treatment A seems better overall, contradicting the results within each hospital. This reversal demonstrates Simpson’s Paradox.
+
+
 
    
 
