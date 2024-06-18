@@ -1,81 +1,94 @@
 # unit 1
 
-1. **Simpson's Paradox:**
+### 1. **Simpson's Paradox:**
    Simpson's Paradox occurs when a trend appears in several different groups of data but disappears or reverses when these groups are combined. This paradox highlights the importance of considering the context and structure of data, as aggregated data can sometimes mislead and mask true underlying relationships.
 
-2. **Correlation:**
+### 2. **Correlation:**
    Correlation is a statistical measure that describes the extent to which two variables are linearly related. It is quantified by the correlation coefficient, which ranges from -1 to 1. A value of 1 indicates a perfect positive linear relationship, -1 indicates a perfect negative linear relationship, and 0 indicates no linear relationship.
 
-3. **Causation:**
+### 3. **Causation:**
    Causation refers to a relationship between two variables where one variable directly affects the other. Establishing causation means demonstrating that changes in one variable (the cause) produce changes in another variable (the effect). Unlike correlation, which only indicates a relationship, causation requires a clear mechanism or evidence showing that one variable is responsible for changes in another.
 
-4. **Conditional Probability:**
+### 4. **Conditional Probability:**
    Conditional probability is the probability of an event occurring given that another event has already occurred. It is denoted as \( P(A|B) \), which reads as "the probability of A given B." It is calculated as:
 
    ![Screenshot 2024-06-18 111627](https://github.com/ace2884/3-2-shorts/assets/119153850/1e8c96c6-b477-4fbe-aa0d-f4f371920309)
 
  
 
-5. **Hypothesis and Inference:**
+### 5. **Hypothesis and Inference:**
    - **Hypothesis:** A hypothesis is a testable statement or prediction about the relationship between two or more variables. In statistics, hypotheses are used to formulate statements that can be tested through experiments or observational studies.
    - **Inference:** Inference refers to the process of drawing conclusions about a population based on sample data. Statistical inference involves estimating population parameters, testing hypotheses, and making predictions using the data collected from a sample.
 
-6. **Confidence Intervals:**
+### 6. **Confidence Intervals:**
    Confidence intervals are a range of values, derived from sample data, that are used to estimate an unknown population parameter. A confidence interval provides a range within which the true parameter value is expected to lie with a certain level of confidence (e.g., 95% confidence level). It is calculated based on the sample mean, standard deviation, and the desired confidence level.
 
-7. **Bayes Theorem:**
+### 7. **Bayes Theorem:**
    Bayes' Theorem is a fundamental theorem in probability theory that describes how to update the probability of a hypothesis based on new evidence. It is stated as:
    
  ![Screenshot 2024-06-18 111606](https://github.com/ace2884/3-2-shorts/assets/119153850/8d6963aa-0d3a-4ca3-9e28-46c7af78422e)
 
 
-8. **Hypothesis Testing:**
+### 8. **Hypothesis Testing:**
    Hypothesis testing is a statistical method used to make decisions about a population parameter based on sample data. It involves:
    - Formulating a null hypothesis (H0) and an alternative hypothesis (H1).
    - Collecting and analyzing sample data.
    - Calculating a test statistic and comparing it to a critical value or using a p-value.
    - Deciding whether to reject the null hypothesis in favor of the alternative hypothesis based on the test results.
 
-9. **Random Variables:**
+### 9. **Random Variables:**
    A random variable is a variable that takes on different values based on the outcomes of a random phenomenon. There are two main types of random variables:
    - **Discrete random variables:** Take on a countable number of distinct values (e.g., the number of heads in coin tosses).
    - **Continuous random variables:** Take on an infinite number of possible values within a given range (e.g., the height of individuals).
 
-10. **Operations on Matrices:**
-    Different operations performed on matrices include:
-    - **Addition and Subtraction:** Combining matrices by adding or subtracting corresponding elements.
-    - **Scalar Multiplication:** Multiplying each element of a matrix by a scalar (a single number).
-    - **Matrix Multiplication:** Combining two matrices to produce a third matrix, following specific rules of element-wise multiplication and summation.
-    - **Transpose:** Flipping a matrix over its diagonal, switching the row and column indices.
-    - **Determinant:** A scalar value that can be computed from the elements of a square matrix and provides information about the matrix properties, such as invertibility.
-    - **Inverse:** A matrix that, when multiplied by the original matrix, results in the identity matrix.
+### 10. **Operations on Matrices:**
 
-11. **Shape of Normalization Curve:**
-    The shape of the normalization curve, often referred to as the normal distribution curve or bell curve, is symmetrical and bell-shaped. It is characterized by its mean and standard deviation, with most data points clustering around the mean and fewer points appearing as you move away from the mean in either direction. The normal distribution is used in statistics because of its desirable properties, such as the central limit theorem.
+ Different operations performed on matrices include:
 
+Addition and Subtraction: Combining matrices by adding or subtracting corresponding elements.
+
+Scalar Multiplication: Multiplying each element of a matrix by a scalar (a single number).
+
+Matrix Multiplication: Combining two matrices to produce a third matrix, following specific rules of element-wise multiplication and summation.
+
+Transpose: Flipping a matrix over its diagonal, switching the row and column indices.
+
+Determinant: A scalar value that can be computed from the elements of a square matrix and 
+provides information about the matrix properties, such as invertibility.
+
+Inverse: A matrix that, when multiplied by the original matrix, results in the identity matrix.
+
+
+### 11. **Shape of Normalization Curve:**
+
+the shape of the normalization curve, often referred to as the normal distribution curve or bell curve, is symmetrical and bell-shaped. It is characterized by its mean and standard deviation, with most data points clustering around the mean and fewer points appearing as you move away from the mean in either direction. The normal distribution is used in statistics because of its desirable properties, such as the central limit theorem.
+
+
+   
 
 # unit 2
  
 
-1. **Train/Test Split in Machine Learning:**
+### 1. **Train/Test Split in Machine Learning:**
+
    Train/test split is a technique used to evaluate the performance of a machine learning model. The dataset is divided into two parts:
    - **Training set:** Used to train the model, where the model learns the underlying patterns and relationships in the data.
    - **Test set:** Used to evaluate the model's performance, ensuring that the model generalizes well to new, unseen data. The typical split ratio is 70-80% for training and 20-30% for testing.
 
-2. **Types of Machine Learning:**
+### 2. **Types of Machine Learning:**
    The different types of machine learning include:
    - **Supervised Learning:** The model is trained on labeled data (input-output pairs) to predict outcomes for new data. Examples include regression and classification.
    - **Unsupervised Learning:** The model is trained on unlabeled data to identify patterns and relationships. Examples include clustering and dimensionality reduction.
    - **Semi-Supervised Learning:** Combines labeled and unlabeled data for training, improving learning accuracy.
    - **Reinforcement Learning:** The model learns by interacting with an environment, receiving rewards or penalties based on actions, aiming to maximize cumulative reward.
 
-3. **Linear Regression:**
+### 3. **Linear Regression:**
    Linear regression is a statistical method used to model the relationship between a dependent variable (target) and one or more independent variables (features). It assumes a linear relationship between the variables, represented by the equation:
    
   ![Screenshot 2024-06-18 112237](https://github.com/ace2884/3-2-shorts/assets/119153850/c16bdc15-23f0-444a-a53c-66d853a7dc00)
 
 
-5. **Logistic Regression:**
+### 4. **Logistic Regression:**
    Logistic regression is a statistical method used for binary classification problems, where the outcome variable is categorical with two possible outcomes (e.g., yes/no, true/false). It models the probability that a given input belongs to a particular class using the logistic function (sigmoid function):
 
 ![Screenshot 2024-06-18 111527](https://github.com/ace2884/3-2-shorts/assets/119153850/2e571e80-4fe2-437f-935b-386a95f6372c)
@@ -83,30 +96,32 @@
 
    The output is a probability score between 0 and 1, which is then thresholded to make a binary decision.
 
-5. **Regularization Techniques:**
+### 5. **Regularization Techniques:**
    Regularization techniques are used to prevent overfitting by adding a penalty term to the loss function. Common regularization techniques include:
    - **L1 Regularization (Lasso):** Adds the absolute values of the coefficients as a penalty term.
    - **L2 Regularization (Ridge):** Adds the squared values of the coefficients as a penalty term.
    - **Elastic Net:** Combines both L1 and L2 regularization penalties.
 
-6. **Difference Between Regression and Classification:**
+### 6. **Difference Between Regression and Classification:**
    - **Regression:** Predicts a continuous numerical value (e.g., predicting house prices).
    - **Classification:** Predicts a categorical label (e.g., classifying emails as spam or not spam).
 
-7. **Classification Errors:**
+### 7. **Classification Errors:**
    Classification errors refer to the mistakes made by a classification model in predicting the class labels. Common classification errors include:
    - **False Positives (Type I Error):** Incorrectly predicting a positive class when it is actually negative.
    - **False Negatives (Type II Error):** Incorrectly predicting a negative class when it is actually positive.
    - **Accuracy, precision, recall, and F1 score** are metrics used to evaluate classification errors.
 
-8. **SVM (Support Vector Machine):**
+### 8. **SVM (Support Vector Machine):**
    Support Vector Machine (SVM) is a supervised learning algorithm used for classification and regression tasks. It works by finding the hyperplane that best separates the data points of different classes in a high-dimensional space. SVM aims to maximize the margin between the closest points (support vectors) of the classes, providing robust classification.
 
-9. **K-NN (K-Nearest Neighbors):**
+### 9. **K-NN (K-Nearest Neighbors):**
    K-Nearest Neighbors (K-NN) is a simple, instance-based learning algorithm used for classification and regression tasks. It classifies a new data point based on the majority class of its K nearest neighbors in the feature space. K-NN does not require training, as it makes decisions based on the entire training dataset stored in memory. The choice of K and the distance metric (e.g., Euclidean distance) are crucial for its performance.
 
-10. **Difference Between K-NN and K-Means:**
-    - **K-NN (K-Nearest Neighbors):**
+
+### 10. **Difference Between K-NN and K-Means:**
+
+  - K-NN (K-Nearest Neighbors):  
       - **Type:** Supervised learning algorithm.
       - **Usage:** Used for classification and regression.
       - **Function:** Classifies a data point based on the labels of its K nearest neighbors.
@@ -114,8 +129,6 @@
       - **Type:** Unsupervised learning algorithm.
       - **Usage:** Used for clustering.
       - **Function:** Divides the dataset into K clusters by minimizing the variance within each cluster, assigning data points to the nearest cluster centroid.
-
-These definitions and notes cover the essential aspects of the topics in machine learning.
 
 
 
