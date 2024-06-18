@@ -259,6 +259,29 @@ A vector can be represented as an array of numbers:
 # unit 3
 
 
+1. **Artificial Neural Network (ANN)**:
+   - An ANN is a computing system inspired by the biological neural networks that constitute animal brains. It consists of interconnected groups of artificial neurons (nodes), which process information using a connectionist approach. ANNs are used for tasks like classification, regression, and pattern recognition.
+
+2. **Convolutional Neural Network (CNN)**:
+   - CNNs are a type of ANN specifically designed for processing structured grid data like images. They use convolutional layers that apply filters to the input data, allowing the network to detect spatial hierarchies and patterns. CNNs are widely used in image recognition, object detection, and other visual tasks.
+
+3. **Recurrent Neural Network (RNN)**:
+   - RNNs are a class of neural networks designed for sequential data. Unlike feedforward neural networks, RNNs have connections that form directed cycles, enabling them to maintain a memory of previous inputs. This makes them suitable for tasks such as time series prediction, language modeling, and speech recognition.
+
+4. **Deep Neural Network (DNN)**:
+   - A DNN is an ANN with multiple hidden layers between the input and output layers. These additional layers allow the network to learn complex representations and perform more sophisticated tasks. DNNs can be used in a variety of applications, including image and speech recognition, natural language processing, and more.
+
+5. **Deep Belief Network (DBN)**:
+   - A DBN is a generative graphical model composed of multiple layers of hidden units. Each layer in a DBN learns to capture features of the input data, and the network can be pre-trained using unsupervised learning techniques before being fine-tuned with supervised learning. DBNs are used for tasks like dimensionality reduction, classification, and feature learning.
+
+6. **Back Propagation**:
+   - Backpropagation is a supervised learning algorithm used for training ANNs. It involves calculating the gradient of the loss function with respect to each weight by using the chain rule, and then updating the weights to minimize the loss. This process is repeated iteratively for multiple epochs until the network learns the desired mapping.
+
+7. **Stochastic Gradient Descent (SGD)**:
+   - SGD is an optimization algorithm used to train ANNs and other machine learning models. Unlike standard gradient descent, which computes the gradient of the loss function using the entire dataset, SGD updates the model parameters using a randomly selected subset of data (a mini-batch). This makes the training process faster and allows the model to escape local minima.
+
+
+
 ### 1. Define Find-S Algorithm
 The **Find-S algorithm** is a simple and efficient algorithm used in machine learning to find the most specific hypothesis that fits the positive examples in a given training dataset. It is used within the framework of the hypothesis space, where the goal is to identify a hypothesis that is consistent with all positive training examples.
 
