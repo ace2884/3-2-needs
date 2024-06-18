@@ -113,9 +113,9 @@ Testing whether a new drug is more effective than the existing one:
 
 3. **Posterior Distribution (P(H|E)):**
    - The updated probability of the hypothesis after considering the new evidence. It is calculated using Bayes' Theorem:
-     \[
-     P(H|E) = \frac{P(E|H) \cdot P(H)}{P(E)}
-     \]
+     
+![Screenshot 2024-06-18 120142](https://github.com/ace2884/3-2-shorts/assets/119153850/40137ac1-6e43-4731-b019-36ccb2198f43)
+
 
 4. **Marginal Likelihood (P(E)):**
    - The total probability of observing the data under all possible hypotheses. It acts as a normalizing constant.
@@ -174,6 +174,92 @@ Overall success rates:
 - Treatment B: \( \frac{85}{150} \approx 56.7\% \)
 
 However, if the proportion of patients in each hospital is not considered, a paradoxical result might appear, where Treatment A seems better overall, contradicting the results within each hospital. This reversal demonstrates Simpson’s Paradox.
+
+### Vectors in Machine Learning
+
+**Vectors** in machine learning are mathematical objects used to represent data points or features in a multidimensional space. They are essential for various machine learning algorithms, which rely on vector operations to process and analyze data.
+
+#### Example of Vectors
+A vector can be represented as an array of numbers:
+\[ {v} = [v_1, v_2, v_3, ....., v_n] \]
+
+ **Operations on Vectors**
+ ![Screenshot 2024-06-18 115116](https://github.com/ace2884/3-2-shorts/assets/119153850/3b0563e6-5f91-41ad-9931-224f80e91e00)
+
+
+### Matrices and Operations on Matrices
+
+**Matrices** are two-dimensional arrays of numbers used to represent data and perform linear transformations. They are fundamental in machine learning for representing datasets, weights in neural networks, and more.
+
+#### Example of a Matrix
+\[
+\mathbf{A} = \begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{bmatrix}
+\]
+
+#### Operations on Matrices
+
+1. **Addition:** Adding corresponding elements of two matrices.
+   \[
+   \mathbf{A} + \mathbf{B} = \begin{bmatrix}
+   a_{11} + b_{11} & a_{12} + b_{12} & \cdots & a_{1n} + b_{1n} \\
+   a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\
+   \vdots & \vdots & \ddots & \vdots \\
+   a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn}
+   \end{bmatrix}
+   \]
+
+2. **Subtraction:** Subtracting corresponding elements of two matrices.
+   \[
+   \mathbf{A} - \mathbf{B} = \begin{bmatrix}
+   a_{11} - b_{11} & a_{12} - b_{12} & \cdots & a_{1n} - b_{1n} \\
+   a_{21} - b_{21} & a_{22} - b_{22} & \cdots & a_{2n} - b_{2n} \\
+   \vdots & \vdots & \ddots & \vdots \\
+   a_{m1} - b_{m1} & a_{m2} - b_{m2} & \cdots & a_{mn} - b_{mn}
+   \end{bmatrix}
+   \]
+
+3. **Scalar Multiplication:** Multiplying each element of a matrix by a scalar.
+   \[
+   c \cdot \mathbf{A} = \begin{bmatrix}
+   c \cdot a_{11} & c \cdot a_{12} & \cdots & c \cdot a_{1n} \\
+   c \cdot a_{21} & c \cdot a_{22} & \cdots & c \cdot a_{2n} \\
+   \vdots & \vdots & \ddots & \vdots \\
+   c \cdot a_{m1} & c \cdot a_{m2} & \cdots & c \cdot a_{mn}
+   \end{bmatrix}
+   \]
+
+4. **Matrix Multiplication:** Combining two matrices to produce a third matrix.
+   \[
+   \mathbf{C} = \mathbf{A} \cdot \mathbf{B} = \begin{bmatrix}
+   \sum_{k=1}^{n} a_{1k} b_{k1} & \sum_{k=1}^{n} a_{1k} b_{k2} & \cdots & \sum_{k=1}^{n} a_{1k} b_{kn} \\
+   \sum_{k=1}^{n} a_{2k} b_{k1} & \sum_{k=1}^{n} a_{2k} b_{k2} & \cdots & \sum_{k=1}^{n} a_{2k} b_{kn} \\
+   \vdots & \vdots & \ddots & \vdots \\
+   \sum_{k=1}^{n} a_{mk} b_{k1} & \sum_{k=1}^{n} a_{mk} b_{k2} & \cdots & \sum_{k=1}^{n} a_{mk} b_{kn}
+   \end{bmatrix}
+   \]
+
+5. **Transpose:** Flipping a matrix over its diagonal.
+   \[
+   \mathbf{A}^T = \begin{bmatrix}
+   a_{11} & a_{21} & \cdots & a_{m1} \\
+   a_{12} & a_{22} & \cdots & a_{m2} \\
+   \vdots & \vdots & \ddots & \vdots \\
+   a_{1n} & a_{2n} & \cdots & a_{mn}
+   \end{bmatrix}
+   \]
+
+6. **Determinant:** A scalar value that can be computed from the elements of a square matrix, indicating its properties such as invertibility.
+
+7. **Inverse:** A matrix that, when multiplied by the original matrix, results in the identity matrix.
+   \[
+   \mathbf{A} \cdot \mathbf{A}^{-1} = \mathbf{I}
+   \]
+
 
 
 
