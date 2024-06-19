@@ -909,15 +909,32 @@ How web pricing data and price intelligence can be useful:
 3. **Hybrid Recommender Systems:**
    - Combine multiple recommendation techniques to improve accuracy and effectiveness. For instance, a hybrid system might blend collaborative filtering and content-based filtering to leverage the strengths of both methods.
 
-4. **Knowledge-Based Recommender Systems:**
-   - Provide recommendations based on explicit knowledge about user preferences and item attributes, often using domain-specific information. These systems rely on a knowledge base and reasoning to match users with items.
-
-5. **Context-Aware Recommender Systems:**
-   - Consider contextual information such as time, location, or the device being used to provide more relevant recommendations. For example, a music streaming service might recommend different playlists for morning commutes versus evening relaxation.
-
-By using these different approaches, recommender systems can tailor their suggestions to the specific needs and preferences of users, enhancing their overall experience and satisfaction.
 
   ![image](https://github.com/ace2884/3-2-shorts/assets/119153850/f9cd5768-c06e-4910-9abe-f670e84ec5c9)
+
+
+### 5. Representing Text for Sentiment Analysis
+
+It is important to transform the text corpus into different input formats 
+for a Machine Learning model. Starting from the left, the Corpus goes 
+through several steps before obtaining the Tokens, a set of 
+text building blocks i.e. words, subwords, characters, etc. Since ML 
+models are only capable of processing numerical values. 
+
+- one hot encoding
+- word Embedding
+- bag of words
+- n-grams
+
+### 6. data cleaning in SA
+
+- make text lowercase
+- word tokenize
+- sentences tokenize
+- remove punctuation
+- remove emoji's
+- lemmatization
+
 
  # unit 5 long 
 
@@ -1168,41 +1185,10 @@ Consider a movie recommendation system:
 
 ## 5. Representing Text for Sentiment Analysis
 
-**Text Representation Methods:**
+It is important to transform the text corpus into different input formats 
+for a Machine Learning model. Starting from the left, the Corpus goes 
+through several steps before obtaining the Tokens, a set of 
+text building blocks i.e. words, subwords, characters, etc. Since ML 
+models are only capable of processing numerical values. 
 
-1. **Bag of Words (BoW):**
-   - Represents text as a collection of words, disregarding grammar and word order.
-   - Example: A sentence "The movie was great" is represented as [The, movie, was, great].
 
-2. **TF-IDF (Term Frequency-Inverse Document Frequency):**
-   - Measures the importance of a word in a document relative to a collection of documents.
-   - Example: Words that frequently appear in a document but are rare across all documents get higher scores.
-
-3. **Word Embeddings:**
-   - Represents words as dense vectors in a continuous vector space.
-   - Example: Word2Vec, GloVe, FastText. Words with similar meanings have similar vectors.
-
-4. **Sequence-based Models:**
-   - Uses models like RNNs and LSTMs that take into account the sequence of words.
-   - Example: Analyzing the sentence "I am not happy" considering the negation.
-
-5. **Transformer-based Models:**
-   - Uses models like BERT and GPT that consider the context of words in a sentence.
-   - Example: Understanding the difference between "I am happy" and "I am not happy."
-
-**Example with TF-IDF in Python:**
-```python
-from sklearn.feature_extraction.text import TfidfVectorizer
-
-# Sample text data
-documents = ["The movie was great", "The movie was terrible"]
-
-# Create TF-IDF vectorizer
-vectorizer = TfidfVectorizer()
-
-# Fit and transform the data
-tfidf_matrix = vectorizer.fit_transform(documents)
-
-# Display TF-IDF matrix
-print(tfidf_matrix.toarray())
-```
