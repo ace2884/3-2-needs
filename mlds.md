@@ -613,6 +613,12 @@ To create a Twitter API account, follow these steps:
   
   # unit-4 long
   
+  ## web Scrapping
+  Web Scraping (also termed Screen Scraping, Web Data Extraction, Web Harvesting etc.) is a technique employed to extract large amounts of data from websites whereby the data is extracted and saved to a local file in your computer or to a database in table (spreadsheet) format.
+
+  Web Scraping is the technique of automating this process, so that instead of manually copying the data from websites, the Web Scraping software will perform the same task within a fraction of the time.
+
+  
   ## 1. Applications of Web Scraping
 
 **Web scraping** has numerous applications across various domains, including:
@@ -644,6 +650,31 @@ To create a Twitter API account, follow these steps:
 
 9. **Financial Data:**
    - Extracting stock prices, financial reports, and economic indicators for financial analysis and trading strategies.
+  
+   ![image](https://github.com/ace2884/3-2-shorts/assets/119153850/cecc0b0a-ebb1-42e0-84e5-4cbbf0cfd9ad)
+
+**Different Types of Web Scrapers**
+
+- Self-built Web Scrapers but that requires advanced knowledge of programming.
+- 
+- Pre-built Web Scrapers are previously created scrapers that you can download and run easily. These also have more advanced options that you can customize.
+
+ -  Browser extension Web Scrapers are extensions that can be added to your browser. These are easy to run as they are integrated with your browser.
+
+- Software Web Scrapers don’t have these limitations as they can be downloaded and installed on your computer. These are more complex than Browser extension Web Scrapers but they also have advanced features that are not limited by the scope of your browser.
+
+- Cloud Web Scrapers run on the cloud which is an off-site server mostly provided by the company that you buy the scraper from.
+ These allow your computer to focus on other tasks as the computer resources are not required to scrape data from websites.
+
+- Local Web Scrapers, on the other hand, run on your computer using local resources.
+
+**The scraper tool**
+
+- A web scraper is a specialized tool designed to accurately and quickly extract data from a web page. 
+-vWeb scrapers vary widely in design and complexity, depending on the project. 
+An important part of every scraper is the data locators (or selectors) that are used to find the data that you want to extract from the HTML file - usually, XPath, CSS selectors, regex, or a combination of them is applied.
+
+
 
 ## 2. Web Scraping Procedure
 
@@ -672,6 +703,19 @@ The procedure for web scraping typically involves the following steps:
 
 8. **Handle Ethical Considerations:**
    - Respect the website's `robots.txt` file and ensure compliance with legal and ethical guidelines.
+  
+ **What is web scrapping used for?** 
+
+Price intelligence is the biggest use case for web scraping. Extracting product and pricing information from e-commerce websites, then turning it into intelligence is an important part of modern e-commerce companies that want to make better pricing/marketing decisions based on data.
+
+How web pricing data and price intelligence can be useful:
+
+- Dynamic pricing
+- Revenue optimization
+- Competitor monitoring
+- Product trend monitoring
+- Brand and MAP compliance
+
 
 ## 3. Toolkits of Python: NumPy, Pandas, Matplotlib, NLTK
 
