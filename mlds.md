@@ -62,6 +62,9 @@ The chi-square test is used to determine if there is a significant association b
 ### 3. **Causation:**
    Causation refers to a relationship between two variables where one variable directly affects the other. Establishing causation means demonstrating that changes in one variable (the cause) produce changes in another variable (the effect). Unlike correlation, which only indicates a relationship, causation requires a clear mechanism or evidence showing that one variable is responsible for changes in another.
 
+   ![Screenshot 2024-06-19 152556](https://github.com/ace2884/3-2-shorts/assets/119153850/5dcfd808-e4f8-45de-afab-46e736d9a4d0)
+
+
 ### 4. **Conditional Probability:**
    Conditional probability is the probability of an event occurring given that another event has already occurred. It is denoted as \( P(A|B) \), which reads as "the probability of A given B." It is calculated as:
 
