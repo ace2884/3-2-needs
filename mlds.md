@@ -921,9 +921,39 @@ By using these different approaches, recommender systems can tailor their sugges
 
  # unit 5 long 
 
+ ## sentimental Analysis
+ 
+- Sentiment analysis is a machine learning tool that analyzes texts for 
+polarity, from positive to negative. By training machine learning tools 
+with examples of emotions in text, machines automatically learn how 
+to detect sentiment without human input. 
 
-## types of sentimental analaysis
- Sentiment analysis, also known as opinion mining, is the process of determining the emotional tone behind a series of words. It helps to understand the attitudes, opinions, and emotions expressed in a piece of text. There are several types of sentiment analysis, each with a specific focus and methodology. Below are the main types:
+- To put it simply, machine learning allows computers to learn new tasks 
+without being expressly programmed to perform them. Sentiment 
+analysis models can be trained to read beyond mere definitions, to 
+understand things like, context, sarcasm, and misapplied words.for example
+
+“Super user-friendly interface. Yeah right. An engineering degree 
+would be helpful.”
+
+Out of context, the words ‘super user-friendly’ and ‘helpful’ could be 
+read as positive, but this is clearly a negative comment. Using 
+sentiment analysis, computers can automatically process text data and 
+understand it just as a human would, saving hundreds of employee 
+hours. 
+
+- Sentiment analysis (or opinion mining) is a natural language 
+processing technique used to determine whether data is positive, 
+negative or neutral. Sentiment analysis is often performed on textual 
+data to help businesses monitor brand and product sentiment in 
+customer feedback, and understand customer needs
+
+For example, using sentiment analysis to automatically analyze 4,000+ 
+reviews about your product could help you discover if customers are 
+happy about your pricing plans and customer service. 
+
+
+## types of sentimental analysis
 
 #### 1. **Fine-Grained Sentiment Analysis**
 
@@ -937,13 +967,31 @@ This type of sentiment analysis provides more granular feedback, typically on a 
 
 Aspect-based sentiment analysis goes a step further by identifying the sentiment about specific aspects or features of a product or service. Instead of analyzing the overall sentiment, it breaks down the text to find sentiments about different components.
 
+Usually, when analyzing sentiments of texts, let’s say product reviews, 
+you’ll want to know which particular aspects or features people are 
+mentioning in a positive, neutral, or negative way. That's where aspectbased sentiment analysis can help, for example in this text: "The 
+battery life of this camera is too short", an aspect-based classifier 
+would be able to determine that the sentence expresses a negative 
+opinion about the feature battery life.
+
 **Example:**
 - In a restaurant review, it could separately identify sentiments towards food quality, service, ambiance, and price.
 - A product review might distinguish between sentiments on battery life, screen quality, and usability.
 
 #### 3. **Emotion Detection**
 
-Emotion detection aims to identify emotions such as happiness, sadness, anger, fear, surprise, and disgust. This type of sentiment analysis goes beyond positive, negative, or neutral sentiments to provide a richer emotional understanding.
+- Emotion detection aims to identify emotions such as happiness, sadness, anger, fear, surprise, and disgust. This type of sentiment analysis goes beyond positive, negative, or neutral sentiments to provide a richer emotional understanding.
+
+- This type of sentiment analysis aims to detect emotions, like happiness, 
+frustration, anger, sadness, and so on. Many emotion detection systems 
+use lexicons (i.e. lists of words and the emotions they convey) or 
+complex machine learning algorithms. 
+
+- One of the downsides of using lexicons is that people express emotions 
+in different ways. Some words that typically express anger, 
+like bad or kill (e.g. your product is so bad or your customer support is 
+killing me) might also express happiness (e.g. this is bad ass or you are 
+killing it).
 
 **Example:**
 - Social media posts can be analyzed to detect emotions that users are expressing about a particular event or brand.
@@ -975,11 +1023,26 @@ This type involves comparing sentiments across different entities, such as produ
 
 #### 7. **Multilingual Sentiment Analysis**
 
-Given the global nature of many businesses, sentiment analysis in multiple languages is crucial. This involves analyzing sentiment in texts written in different languages.
+Multilingual sentiment analysis can be difficult. It involves a lot of 
+preprocessing and resources. Most of these resources are available 
+online (e.g. sentiment lexicons), while others need to be created (e.g. 
+translated corpora or noise detection algorithms), but you’ll need to 
+know how to code to use them. 
 
-**Example:**
-- Analyzing customer feedback from global markets to understand regional sentiments.
-- Monitoring social media mentions in various languages to track international brand perception.
+**Benefits of sentiment analysis:** 
+
+- **Sorting Data at Scale**
+Can you imagine manually sorting through thousands of tweets, 
+customer support conversations, or surveys? There’s just too much 
+business data to process manually. Sentiment analysis helps businesses 
+process huge amounts of data in an efficient and cost-effective way.
+
+- **Real-Time Analysis**
+Sentiment analysis can identify critical issues in real-time, for example 
+is a PR crisis on social media escalating? Is an angry customer about to 
+churn? Sentiment analysis models can help you immediately identify 
+these kinds of situations, so you can take action right away. 
+
 
 #### 8. **Visual and Multimodal Sentiment Analysis**
 
