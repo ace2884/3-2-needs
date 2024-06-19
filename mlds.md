@@ -240,6 +240,8 @@ A vector can be represented as an array of numbers:
 \[ {v} = [v_1, v_2, v_3, ....., v_n] \]
 
  **Operations on Vectors**
+
+ 
  ![Screenshot 2024-06-18 115116](https://github.com/ace2884/3-2-shorts/assets/119153850/3b0563e6-5f91-41ad-9931-224f80e91e00)
 
 
