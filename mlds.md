@@ -239,7 +239,26 @@ A vector can be represented as an array of numbers:
  **Operations on Vectors**
  ![Screenshot 2024-06-18 115116](https://github.com/ace2884/3-2-shorts/assets/119153850/3b0563e6-5f91-41ad-9931-224f80e91e00)
 
-   
+
+## p hacking
+
+- p-value or probability value is the chance, based on the model in the null hypothesis, that the test statistic is equal to the value that was observed in the data or is even further in the direction of the alternative.
+
+ - If a p-value is small, that means the tail beyond the observed statistic is small and so the observed statistic is far away from what the null predicts. This implies that the data support the alternative hypothesis better than they support the null. 
+ 
+- By convention, when we see that the p-value is below 0.05, the result is called statistically significant, and we reject the null hypothesis.
+
+![image](https://github.com/ace2884/3-2-shorts/assets/119153850/806336e2-b5ab-474f-9d4c-eb1939b10f8b)
+
+Consider we have 5 types of CoronaVirus candidate Vaccines with us for which we need to check which one has actual impact on recovery time of patients. So let’s say we do Hypothesis Tests for all 5 types of vaccines one by one. We set the alpha as 0.05. And hence if P-Value for any vaccine comes less than that, we say we can reject the Null Hypothesis.. Or can we?
+
+**Example 1**
+
+- Say, Vaccine A gives a P-Value of 0.2, Vaccine B gives 0.058, Vaccine C gives 0.4, Vaccine D gives 0.02, Vaccine E gives 0.07.
+- 
+-Now, by above results, a naive way to deduce will be that Vaccine D is the one which significantly reduces recovery time and can be used as the CoronaVirus Vaccine. But can we really say that just yet No. If we do, we might be P-Hacking. As this can be a false positive!
+
+
 
 # unit 2
  
