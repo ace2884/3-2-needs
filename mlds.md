@@ -206,29 +206,29 @@ Bayesian inference is powerful because it provides a coherent framework for upda
 - **Confounding Variables:** The paradox often arises due to the presence of confounding variables—factors that influence both the dependent and independent variables in a way that can obscure the true relationship between them.
 
 #### Example:
-Consider a study comparing the effectiveness of two treatments (A and B) for a medical condition across two different hospitals.
 
-- **Hospital 1:**
-  - Treatment A: 80% success rate (40 out of 50 patients).
-  - Treatment B: 90% success rate (45 out of 50 patients).
+For example, you and a friend each do problems on Brilliant, and your friend answers a higher proportion correctly than you on each of two days. Does that mean your friend has answered a higher proportion correctly than you when the two days are combined? Not necessarily!
 
-- **Hospital 2:**
-  - Treatment A: 30% success rate (30 out of 100 patients).
-  - Treatment B: 40% success rate (40 out of 100 patients).
 
-When analyzing each hospital separately, Treatment B appears to be more effective than Treatment A.
+![image](https://github.com/ace2884/3-2-shorts/assets/119153850/b32cb3a8-f6ef-44d2-a54a-5281a836166e)
 
-- **Combined Data:**
-  - Treatment A: 70 out of 150 patients succeeded.
-  - Treatment B: 85 out of 150 patients succeeded.
 
-Overall success rates:
-- Treatment A: \( \frac{70}{150} \approx 46.7\% \)
-- Treatment B: \( \frac{85}{150} \approx 56.7\% \)
 
-However, if the proportion of patients in each hospital is not considered, a paradoxical result might appear, where Treatment A seems better overall, contradicting the results within each hospital. This reversal demonstrates Simpson’s Paradox.
+![Screenshot 2024-06-19 105800](https://github.com/ace2884/3-2-shorts/assets/119153850/b21be233-dcf8-4f71-a560-c3267a37f3ff)
 
-### Vectors in Machine Learning
+
+
+![Screenshot 2024-06-19 105810](https://github.com/ace2884/3-2-shorts/assets/119153850/364420e9-b686-4fbe-b924-e094e52d2686)
+
+
+
+- Simpson paradox occurs some groups of data show certain relationship in each group , when data is combined the relationship reversed 
+
+- In above example we saw that the problem were grouped into saturday & sunday , your friend a higher proportion correctly each day. but when the problem were combined into both days , you actually solved higher proposition corretly 
+
+
+
+## Vectors in Machine Learning
 
 **Vectors** in machine learning are mathematical objects used to represent data points or features in a multidimensional space. They are essential for various machine learning algorithms, which rely on vector operations to process and analyze data.
 
@@ -239,8 +239,6 @@ A vector can be represented as an array of numbers:
  **Operations on Vectors**
  ![Screenshot 2024-06-18 115116](https://github.com/ace2884/3-2-shorts/assets/119153850/3b0563e6-5f91-41ad-9931-224f80e91e00)
 
-
-### Matrices and Operations on Matrices
    
 
 # unit 2
