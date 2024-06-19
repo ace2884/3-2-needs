@@ -281,6 +281,9 @@ Consider we have 5 types of CoronaVirus candidate Vaccines with us for which we 
    - **Semi-Supervised Learning:** Combines labeled and unlabeled data for training, improving learning accuracy.
    - **Reinforcement Learning:** The model learns by interacting with an environment, receiving rewards or penalties based on actions, aiming to maximize cumulative reward.
 
+     ![image](https://github.com/ace2884/3-2-shorts/assets/119153850/a146666f-f257-4b71-ae80-c1d9a49abae3)
+
+
 ### 3. **Linear Regression:**
    Linear regression is a statistical method used to model the relationship between a dependent variable (target) and one or more independent variables (features). It assumes a linear relationship between the variables, represented by the equation:
    
@@ -1088,13 +1091,6 @@ killing it).
 - Social media posts can be analyzed to detect emotions that users are expressing about a particular event or brand.
 - Customer feedback can be analyzed to understand specific emotional reactions to products or services.
 
-#### 4. **Intent Analysis**
-
-Intent analysis seeks to understand the intention behind a text. This type of analysis is used to identify the purpose or goal behind a user’s statement, such as making a complaint, asking for help, giving a compliment, or making a suggestion.
-
-**Example:**
-- In customer service, intent analysis helps in routing queries to the appropriate support teams based on the customer's intent.
-- In marketing, understanding whether a social media mention is a product inquiry, a purchase intent, or feedback.
 
 #### 5. **Polarity Analysis**
 
@@ -1122,14 +1118,6 @@ know how to code to use them.
 
 
 
-#### 8. **Visual and Multimodal Sentiment Analysis**
-
-Beyond text, sentiment analysis can be applied to other forms of content, such as images, videos, and combined data sources (multimodal).
-
-**Example:**
-- Analyzing the sentiment expressed in memes or images posted on social media.
-- Combining text and video data from customer reviews to provide a comprehensive sentiment analysis.
-
 #### Summary Table
 
 | Type                      | Focus                                                | Example Use Case                                      |
@@ -1137,11 +1125,10 @@ Beyond text, sentiment analysis can be applied to other forms of content, such a
 | Fine-Grained              | Detailed sentiment categories                        | Star ratings for products                             |
 | Aspect-Based              | Sentiment towards specific aspects                   | Sentiments on food quality, service in restaurant reviews |
 | Emotion Detection         | Identifying specific emotions                        | Detecting happiness, sadness in social media posts    |
-| Intent Analysis           | Understanding user intentions                        | Routing customer service queries                      |
 | Polarity Analysis         | Basic positive, negative, neutral classification     | Sentiment analysis of tweets                          |
 | Comparative Analysis      | Comparing sentiments across entities                 | Benchmarking brands within an industry                |
 | Multilingual Analysis     | Analyzing sentiments in different languages          | Tracking international brand perception               |
-| Visual and Multimodal     | Analyzing non-text content or combined data sources  | Analyzing sentiment in images and videos              |
+
 
 
 
