@@ -1029,19 +1029,6 @@ online (e.g. sentiment lexicons), while others need to be created (e.g.
 translated corpora or noise detection algorithms), but you’ll need to 
 know how to code to use them. 
 
-**Benefits of sentiment analysis:** 
-
-- **Sorting Data at Scale**
-Can you imagine manually sorting through thousands of tweets, 
-customer support conversations, or surveys? There’s just too much 
-business data to process manually. Sentiment analysis helps businesses 
-process huge amounts of data in an efficient and cost-effective way.
-
-- **Real-Time Analysis**
-Sentiment analysis can identify critical issues in real-time, for example 
-is a PR crisis on social media escalating? Is an angry customer about to 
-churn? Sentiment analysis models can help you immediately identify 
-these kinds of situations, so you can take action right away. 
 
 
 #### 8. **Visual and Multimodal Sentiment Analysis**
@@ -1073,6 +1060,17 @@ Beyond text, sentiment analysis can be applied to other forms of content, such a
 ## 1. Short Note on Recommender Systems and Differences Between Types
 
 **Recommender Systems** are software tools and techniques providing suggestions for items to be of use to a user. They are widely used in various domains, such as e-commerce, streaming services, and social networks, to personalize user experience by recommending products, movies, friends, etc.
+- Recommender systems aim to predict users’ interests and recommend 
+product items that quite likely are interesting for them. They are among 
+the most powerful machine learning systems that online retailers 
+implement in order to drive sales. 
+- Data required for recommender systems stems from explicit user 
+ratings after watching a movie or listening to a song, from implicit 
+search engine queries and purchase histories, or from other knowledge 
+about the users/items themselves. 
+- Sites like Spotify, YouTube or Netflix use that data in order to suggest 
+playlists, so-called Daily mixes, or to make video recommendations, 
+respectively. 
 
 **Types of Recommender Systems:**
 
@@ -1083,6 +1081,24 @@ Beyond text, sentiment analysis can be applied to other forms of content, such a
 
 2. **Content-Based Filtering:**
    - Recommends items similar to those that the user has shown interest in, based on item features.
+   - These systems make recommendations using a user’s item and profile 
+features. They hypothesize that if a user was interested in an item in the 
+past, they will once again be interested in it in the future. Similar items 
+are usually grouped based on their features. User profiles are 
+constructed using historical interactions or by explicitly asking users 
+about their interests. There are other systems, not considered purely 
+content-based, which utilize user personal and social data.
+
+- One issue that arises is making obvious recommendations because of 
+excessive specialization (user A is only interested in categories B, C, 
+and D, and the system is not able to recommend items outside those 
+categories, even though they could be interesting to them).
+
+- Another common problem is that new users lack a defined profile 
+unless they are explicitly asked for information. Nevertheless, it is 
+relatively simple to add new items to the system. We just need to ensure 
+that we assign them a group according to their features.
+
    - Example: A music recommendation system suggesting songs with similar genres or artists to those the user has listened to.
 
 3. **Hybrid Recommender Systems:**
