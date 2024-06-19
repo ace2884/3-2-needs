@@ -1,5 +1,58 @@
 # unit 1
 
+
+### 1. **t-test**
+
+The t-test is used to determine if there is a significant difference between the means of two groups. There are different types of t-tests, including one-sample t-test, independent two-sample t-test, and paired sample t-test.
+
+- **One-Sample t-test**: Tests if the sample mean is significantly different from a known or hypothesized population mean.
+
+ 
+![Screenshot 2024-06-19 103404](https://github.com/ace2884/3-2-shorts/assets/119153850/b694ce43-d09a-4628-a2d6-27d5014212d2)
+
+- **Independent Two-Sample t-test**: Tests if the means of two independent groups are significantly different.
+  
+![Screenshot 2024-06-19 103414](https://github.com/ace2884/3-2-shorts/assets/119153850/e43012dd-4662-42a2-8b4f-17acb47d46f5)
+
+
+- **Paired Sample t-test**: Tests if the means of two related groups are significantly different.
+
+ 
+![Screenshot 2024-06-19 103420](https://github.com/ace2884/3-2-shorts/assets/119153850/8fcf8c28-cab0-42d0-a632-340cb163091f)
+
+### 2. **F-test**
+
+The F-test is used to compare two variances to determine if they are significantly different. It is also used in the context of ANOVA (Analysis of Variance).
+
+
+![Screenshot 2024-06-19 103346](https://github.com/ace2884/3-2-shorts/assets/119153850/ea7a9bf7-d733-4133-b9a0-54f5bcaae1e4)
+
+### 3. **z-test**
+
+The z-test is used to determine if there is a significant difference between the sample and population means or between the means of two samples, assuming the sample size is large (n > 30) and/or the population variance is known.
+
+
+![Screenshot 2024-06-19 103320](https://github.com/ace2884/3-2-shorts/assets/119153850/0830705e-a1e8-4d93-9076-ebb815a24c25)
+
+### 4. **ANOVA (Analysis of Variance)**
+
+ANOVA is used to compare the means of three or more groups to see if at least one group mean is different from the others.
+
+
+ 
+![Screenshot 2024-06-19 103336](https://github.com/ace2884/3-2-shorts/assets/119153850/37146f8a-5619-438f-8508-0cec42a486d9)
+
+### 5. **Chi-Square Test**
+
+The chi-square test is used to determine if there is a significant association between categorical variables.
+
+- **Chi-Square Test for Independence**:
+
+![Screenshot 2024-06-19 103747](https://github.com/ace2884/3-2-shorts/assets/119153850/5bd32eb4-2b70-44c6-bcba-96e5ea790687)
+
+
+
+
 ### 1. **Simpson's Paradox:**
    Simpson's Paradox occurs when a trend appears in several different groups of data but disappears or reverses when these groups are combined. This paradox highlights the importance of considering the context and structure of data, as aggregated data can sometimes mislead and mask true underlying relationships.
 
