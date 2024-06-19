@@ -1004,6 +1004,9 @@ Beyond text, sentiment analysis can be applied to other forms of content, such a
 
 
 
+![Screenshot 2024-06-19 120357](https://github.com/ace2884/3-2-shorts/assets/119153850/4374cc0f-8ad3-4abc-ac8e-15480b247f8d)
+
+
 ## 1. Short Note on Recommender Systems and Differences Between Types
 
 **Recommender Systems** are software tools and techniques providing suggestions for items to be of use to a user. They are widely used in various domains, such as e-commerce, streaming services, and social networks, to personalize user experience by recommending products, movies, friends, etc.
