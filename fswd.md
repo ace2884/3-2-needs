@@ -885,19 +885,19 @@ Example:
 ```
 <html>
 <head>
- <script src 
-="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.
-js"></script>
+ <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
  <style>
  #myColor 
-{color: white; 
+{
+color: white; 
 background: black; 
 padding:30px; 
 height: 90px; 
 width: 400px;
  }
 #newColor
-{background: pink; 
+{
+background: pink; 
 width: 650px; 
 color: white; 
 padding:30px; 
@@ -906,14 +906,14 @@ height: 90px;
  </style>
 </head>
 <body>
- <div id="myColor"><p style="text-align:center;">Changing the 
-Element ID</p>
+<center>
+ <div id="myColor"><p style="text-align:center;">Changing the Element ID</p>
 </div>
 <br>
  <button onclick = "myFuntion()"> Click here </button>
  <script>
  function myFuntion() {
- $("div").attr('id', 'newColor');
+ $("#mycolor").attr('id', 'newColor');
  }
  </script>
  </center>
