@@ -341,7 +341,12 @@ function showPosition(position) {
 ```
 
 
-# unit 2
+# unit 4
+
+## Difference between angularjs and angular
+
+![image](https://github.com/ace2884/3-2-shorts/assets/119153850/003a8519-e46a-4e7d-9fca-728d9ce1904e)
+
 
 # unit 5
 
