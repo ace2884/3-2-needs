@@ -496,6 +496,29 @@ By using the `table-responsive` class, the table will automatically adjust its l
 </body>
 </html>
 ```
+# unit 3
+
+## comparison between MongoDB and RDBMS in a tabular format: 
+
+| Feature                     | MongoDB (NoSQL)                                             | RDBMS (Relational Database Management System)            |
+|-----------------------------|-------------------------------------------------------------|---------------------------------------------------------|
+| Data Model                  | Document-oriented (JSON-like documents)                     | Table-based (rows and columns)                           |
+| Schema                      | Schema-less, flexible                                       | Fixed schema, rigid                                      |
+| Transactions                | Supports ACID transactions with limitations                 | Full ACID support                                        |
+| Scalability                 | Horizontally scalable (sharding)                            | Vertically scalable (scale-up)                           |
+| Query Language              | MongoDB Query Language (MQL)                                | SQL (Structured Query Language)                          |
+| Joins                       | Limited support for joins, often requires denormalization   | Extensive support for joins across multiple tables       |
+| Storage                     | Binary JSON (BSON)                                          | Various storage formats (typically binary or text)       |
+| Data Relationships          | Embedded documents, references                              | Foreign keys, join tables                                |
+| Use Cases                   | Big data, real-time analytics, content management, IoT      | Financial transactions, ERP, CRM, data warehousing       |
+| Indexing                    | Supports indexing on any field                              | Extensive indexing options (primary, unique, composite)  |
+| Performance                 | Fast read/write for large volumes of data                   | Optimized for complex queries and transactions           |
+| Flexibility                 | Highly flexible, adaptable to changes in data structure     | Less flexible, changes require schema modifications      |
+| Backup and Restore          | Various tools available, typically more complex             | Mature and standardized tools available                  |
+| Consistency Model           | Eventual consistency, strong consistency optional           | Strong consistency                                       |
+| Licensing                   | Generally open-source, some enterprise versions             | Various licenses (open-source and commercial)            |
+| Popular Examples            | MongoDB, CouchDB, Cassandra                                 | MySQL, PostgreSQL, Oracle, SQL Server                    |
+
 
 
 # unit 4
