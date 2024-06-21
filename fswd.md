@@ -622,6 +622,49 @@ The ngRoute must be added as a dependency in the application module:
 const app = angular.module("myApp", ["ngRoute"]); 
 ```
 
+## Fetch Data From A Service
+
+- Angular offers HttpClient to work on API and handle data easily. In this approach HttpClient along with subscribe() method will be used for fetching data.
+  
+**Step 1:** Create the necessary component and application.
+**Step 2:** Do the necessary imports for HttpClient in module.ts file.
+```
+import { HttpClientModule } from '@angular/common/http'; 
+imports: [
+ HttpClientModule,
+ ], 
+ ```
+**Step 3:** Do the necessary imports for HttpClient in component.ts file.
+```
+import { HttpClientModule } from '@angular/common/http';
+```
+**Step4:** We get Response from API by passing API url in get() method and then subscribing to the url. 
+```
+this.http.get('API url').subscribe(parameter)
+```
+- The Response of the API is stored in a variable from which data can be accessed.
+
+**Step 5:** Now data array need to be showed using HTML. A Table is used in which rows are added dynamically by the size of data array. For this, rows are created using *ng For then data is showed from each row.
+
+## Submit Data To Service
+
+- The ngSubmit() method is called when the ‘submit’ event is triggered on the ngForm.
+Syntax
+```
+<form (ngSubmit)='method($event)'></form>
+```
+- $event: the “submit” event object
+
+**Approach:**
+
+- Create an Angular app that to be used.
+- In app.component.ts, make an array that takes the value from the form.
+- In app.component.html, make a form and send the value using (ngSubmit) method.
+- Serve the angular app using ng serve to see the output.
+
+
+
+
 # unit 5
 
 ## Build the steps to create a new git local Repository and remote repository.
