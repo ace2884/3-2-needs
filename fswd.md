@@ -1025,7 +1025,7 @@ $("p[class!='demo']").addClass("one");
 </body>
 </html>
 ```
-
+## CSS selectors
 
 CSS selectors are used to select the HTML elements you want to style. There are several types of selectors, each with different levels of specificity and purposes. Here’s an overview of the most common CSS selectors:
 
