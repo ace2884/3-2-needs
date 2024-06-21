@@ -1490,6 +1490,45 @@ A Version Control System (VCS) is a software tool that helps manage changes to f
 - **Document Management**: Keeping track of changes in documents, especially in collaborative environments.
 - **Configuration Files**: Managing configuration files for systems, ensuring changes can be tracked and reverted if necessary.
 
+# definitions
+
+
+
+
+### AJAX (Asynchronous JavaScript and XML)
+AJAX is a technique for creating fast and dynamic web pages. It allows web pages to be updated asynchronously by exchanging small amounts of data with the server behind the scenes. This means that parts of a web page can be updated without reloading the whole page. AJAX is commonly used with JavaScript and XML, though JSON is more popular for data interchange.
+
+### Node.js
+Node.js is a runtime environment that allows you to run JavaScript code on the server side. It is built on the V8 JavaScript engine (the same engine that powers Google Chrome) and enables developers to use JavaScript for server-side scripting to produce dynamic web page content before the page is sent to the user's web browser. Node.js is known for its non-blocking, event-driven architecture, which makes it ideal for building scalable network applications.
+
+### Template Engine
+A template engine is used to separate the application’s logic from the presentation layer. It allows developers to use static template files in their applications. At runtime, the template engine replaces placeholders in a template file with actual data and transforms the template into a final HTML document. Popular template engines include EJS, Handlebars, and Pug (formerly Jade).
+
+### AngularJS
+AngularJS is a structural framework for dynamic web applications. It lets you use HTML as your template language and extend HTML's syntax to express your application's components clearly and succinctly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write.
+
+### Angular
+Angular (often referred to as Angular 2+ to distinguish it from AngularJS) is a platform and framework for building single-page client applications using HTML and TypeScript. It is a complete rewrite from the same team that built AngularJS. Angular provides a more modular and efficient framework compared to its predecessor, with improved performance and tooling support.
+
+### Bootstrap
+Bootstrap is a popular front-end framework for developing responsive and mobile-first websites. It includes HTML, CSS, and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. Bootstrap helps developers quickly design and customize responsive mobile-first sites.
+
+### CSS (Cascading Style Sheets)
+CSS is a style sheet language used for describing the presentation of a document written in HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. It is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+### HTML (HyperText Markup Language)
+HTML is the standard markup language for creating web pages. It is used to describe the structure of web pages using markup. HTML elements are the building blocks of HTML pages and are represented by tags. HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript.
+
+### jQuery
+jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, and animation much simpler with an easy-to-use API that works across a multitude of browsers. jQuery also simplifies AJAX calls and provides a lot of utility functions.
+
+### Express
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. It facilitates the rapid development of Node-based web applications, providing a thin layer of fundamental web application features without obscuring Node.js features.
+
+### MongoDB
+MongoDB is a NoSQL database program that uses JSON-like documents with optional schemas. It is designed for high availability and scalability, making it a popular choice for modern web applications that need to handle large amounts of data and diverse data types. MongoDB is known for its flexibility and performance in handling unstructured data.
+
+
 
 
 
