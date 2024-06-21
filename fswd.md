@@ -765,6 +765,9 @@ $("p[class!='demo']").addClass("one");
 
 
 
+![image](https://github.com/ace2884/3-2-shorts/assets/119153850/394d9b69-c774-4165-8ee0-b81b1f165de5)
+
+
 # unit 4
 
 ## Difference between angularjs and angular
