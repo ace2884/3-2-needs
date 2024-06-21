@@ -119,7 +119,7 @@ Web storage is widely supported by modern web browsers, including Chrome, Firefo
 ![image](https://github.com/ace2884/3-2-shorts/assets/119153850/47be880e-ebcb-4dfb-9cb9-c0d06e25d8dd)
 
 
-### 4. HTML5 Elements  Video and Audio
+## 4. HTML5 Elements  Video and Audio
 
 #### Video Element
 ```html
@@ -151,7 +151,7 @@ Web storage is widely supported by modern web browsers, including Chrome, Firefo
 </html>
 ```
 
-### 5. HTML Code for Drag and Drop
+## 5. HTML Code for Drag and Drop
 
 ```html
 <!DOCTYPE html>
@@ -195,7 +195,7 @@ function drop(ev) {
 </html>
 ```
 
-### 6. Geolocation
+## 6. Geolocation
 
 The Geolocation API allows the user to provide their location to web applications if they so desire. It can be used to find a user's location and display it on a map.
 
@@ -232,7 +232,7 @@ function showPosition(position) {
 </html>
 ```
 
-### 7. Five Bootstrap CSS Classes
+## 7. Five Bootstrap CSS Classes
 
 Bootstrap is a popular front-end framework that helps developers create responsive and mobile-first web designs. It comes with a variety of CSS classes that can be used to style HTML elements efficiently. Here are five essential Bootstrap CSS classes:
 
@@ -496,6 +496,192 @@ By using the `table-responsive` class, the table will automatically adjust its l
 </body>
 </html>
 ```
+# unit 2
+
+## JQuery Features
+jQuery simplifies various tasks of a programmer by writing less code. Here is the list of important core features supported by jQuery 
+- DOM manipulation − the jQuery made it easy to select DOM elements, negotiate them 
+and modifying their content by using cross-browser open source selector engine called Sizzle.
+- Event handling − The jQuery offers an elegant way to capture a wide variety of events, such as a user clicking on a link, without the need to clutter the HTML code itself with event handlers.
+- AJAX Support − The jQuery helps you a lot to develop a responsive and feature rich site using AJAX technology.
+- Animations − The jQuery comes with plenty of built-in animation effects which you can use in your websites.
+- Lightweight − The jQuery is very lightweight library - about 19KB in size (Minified and gripped).
+- Cross Browser Support − The jQuery has cross-browser support, and works well in IE 
+- Latest Technology − The jQuery supports CSS3 selectors and basic XPath syntax.
+JQuery has been developed with the following principles:
+- Separation of JavaScript and HTML, which encourages developers to completely 
+separate JavaScript code from HTML markup.
+- Brevity and clarity promotes features like chainable functions and shorthand function 
+names.
+- Eliminates of cross-browser incompatibilities, so developers does not need to worry 
+about browser compatibility while writing code using jQuery library.
+- Extensibility, which means new events, elements, and methods can be easily added in 
+jQuery library and then reused as a plugin.
+
+## **JQuery Selectors**
+jQuery Selectors are used to select HTML element(s) from an HTML document. Consider an 
+HTML document is given and you need to select all the <div> from this document. This is where 
+jQuery Selectors will help.
+jQuery Selectors can find HTML elements (ie. Select HTMLelements) based on the following:
+- ID Selectors
+- Class Selectors
+- Element attribute name
+- Element attribute value
+
+#### 1. ID Selectors:
+The element ID selector selects a single element with the given id attribute. This would be an 
+element ID. If the id contains any special characters like periods or colons you have to escape 
+those characters with backslashes.
+
+Syntax:
+```
+$('#elementid')
+```
+Example:
+```
+<html>
+<head>
+ <script src 
+="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.
+js"></script>
+ <style>
+ #myColor 
+{color: white; 
+background: black; 
+padding:30px; 
+height: 90px; 
+width: 400px;
+ }
+#newColor
+{background: pink; 
+width: 650px; 
+color: white; 
+padding:30px; 
+height: 90px;
+ }
+ </style>
+</head>
+<body>
+ <div id="myColor"><p style="text-align:center;">Changing the 
+Element ID</p>
+</div>
+<br>
+ <button onclick = "myFuntion()"> Click here </button>
+ <script>
+ function myFuntion() {
+ $("div").attr('id', 'newColor');
+ }
+ </script>
+ </center>
+</body>
+</html>
+```
+#### 2. Class Selectors
+The .class selector in jQuery is used to select all elements with the specific class.
+
+Syntax:
+```
+$(".class")
+```
+Example:
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.one {
+background-color: blue;
+color: white;
+font-size: 18px;
+border: 2px blue dashed;
+}
+</style>
+<script src="https://code.jquery.com/jquery3.4.1.js"></script>
+<script>
+$(document).ready(function(){
+$(".demo").addClass("one");
+});
+</script>
+</head>
+<body>
+<h1>Heading One</h1>
+<h2>Heading Two</h2>
+<p class="demo">Demo text 1...</p>
+<p>Demo text 2...</p>
+<p class="demo">Demo text 3...</p>
+<p>Demo text 4...</p>
+</body>
+</html>
+```
+#### 3. Attribute name
+The [attribute|=value] selector selects each element with a specified attribute, with a value equal 
+to a specified string (like "en") or starting with that string followed by a hyphen (like "en-us").
+
+Syntax:
+```
+$("[attribute|='value']")
+```
+
+Example 
+```
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ $("p[title|='Tomorrow']").css("background-color", "red");}); 
+</script>
+</head>
+<body>
+<p title="Tomorrow">This is a paragraph.</p>
+<p title="tomorrow">This is a paragraph.</p>
+<p title="Tom">This is a paragraph.</p>
+<p title="See You Tomorrow">This is a paragraph.</p>
+<p title="Tomorrow-the day after today">This is a paragraph.</p>
+</body>
+</html>
+```
+#### 4. Attribute value:
+The [attribute!=value] selector in jQuery is used to select each element that 
+isn’t having the specified attribute and value.
+
+Syntax:
+```
+$("[attribute!='value']")
+```
+
+Example:
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.one {
+color: white;
+background-color: orange;
+font-size: 16px;
+border: 2px blue dashed;
+}
+</style>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/j
+query.min.js"></script>
+<script>
+$(document).ready(function(){
+$("p[class!='demo']").addClass("one");
+});
+</script></head>
+<body>
+<h1>Car Details</h1>
+<p>Car is XUV500</p>
+<p class="demo">2179 cc</p>
+<p>Independent Suspension</p>
+<p>Fuel Tank Capacity: 70 litres</p>
+</body>
+</html>
+```
+
 # unit 3
 
 ## comparison between MongoDB and RDBMS in a tabular format: 
