@@ -43,6 +43,64 @@ SVG (Scalable Vector Graphics) is an XML-based markup language for describing tw
 </html>
 ```
 
+##### example for drawing circle
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40"
+  stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+ </body>
+</html>
+```
+
+##### example for drawing rectangle
+
+```html
+<html>
+<body>
+<svg width="400" height="100">
+  <rect width="400" height="100" 
+  style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+</svg>
+ </body>
+</html>
+```
+##### example for drawing  round edge rectangle
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<svg width="400" height="180">
+  <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+  style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+</svg>
+</body>
+</html>
+```
+##### example for drawing star
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<svg width="300" height="200">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>
+ </body>
+</html>
+```
+
+## Differences Between Canvas and SVG 
+
+
+![image](https://github.com/ace2884/3-2-shorts/assets/119153850/8ec9f301-d9dd-4fc2-a50f-d1f6d5b4ee16)
+
+
+
 ### 2. Web Storage in Detail
 
 Web storage refers to mechanisms that web applications can use to store data in the client's browser. It provides a way to persistently store data locally on the user's device, allowing the application to retrieve and update this data as needed. Web storage is essential for building responsive and interactive web applications, enabling features such as caching, offline support, and improving performance by reducing server-side requests.
