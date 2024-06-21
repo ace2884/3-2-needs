@@ -897,6 +897,7 @@ const app = angular.module("myApp", ["ngRoute"]);
 - Angular offers HttpClient to work on API and handle data easily. In this approach HttpClient along with subscribe() method will be used for fetching data.
   
 **Step 1:** Create the necessary component and application.
+
 **Step 2:** Do the necessary imports for HttpClient in module.ts file.
 ```
 import { HttpClientModule } from '@angular/common/http'; 
