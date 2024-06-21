@@ -526,7 +526,7 @@ Here's a comparison between Angular (versions 2 and above) and AngularJS (versio
 
 
 
-### AngularJS Mouse Events
+## AngularJS Mouse Events
 
 AngularJS provides a way to handle mouse events within your application using directives. These events allow you to respond to user interactions with the mouse, such as clicks, double-clicks, mouseover, mouseleave, etc. Here are some common mouse events in AngularJS along with explanations and examples:
 
@@ -609,6 +609,18 @@ AngularJS provides a way to handle mouse events within your application using di
      };
      ```
 
+   ## Routing in Angular
+
+  - Routing in AngularJS is used when the user wants to navigate to different pages in an application but still wants it to be a single page application.
+ AngularJS routes enable the user to create different URLs for different content in an application.
+
+-The ngRoute module helps in accessing different pages of an application without reloading the entire application.
+
+-$routeProvider is used to configure the routes. It helps to define what page to display when a user clicks a link. It accepts either when() or otherwise() method.
+The ngRoute must be added as a dependency in the application module:
+```
+const app = angular.module("myApp", ["ngRoute"]); 
+```
 
 # unit 5
 
