@@ -69,6 +69,7 @@ SVG (Scalable Vector Graphics) is an XML-based markup language for describing tw
 </html>
 ```
 ##### example for drawing  round edge rectangle
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -402,6 +403,231 @@ Bootstrap is a popular front-end framework that helps developers create responsi
     </div>
   </div>
   ```
+
+## form validation
+
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script >
+        function validate(){
+            var fname = document.reg_form.fname;
+            var lname =document.reg_form.lname;
+            var gender = document.reg_form.gen;
+            var mobile= document.reg_form.mob;
+            var email=document.reg_form.email;
+            var submit=document.reg_form.submit;
+            if (fname.value.length ==0|| lname.value.length==0 ||gender.value.length==0){
+                alert("Enter all the fields");
+                return false;
+            }
+            var alpha=/^[A-Za-z]+$/;
+            if (!fname.value.match(alpha)||!lname.value.match(alpha)){
+                alert("Enter valid first and last name")
+                return false;
+            }
+            if(mobile.value.length != 10){
+                alert("Enter 10 digit mobile no");
+                return false;
+            }
+            var validregx= /^[a-zA-Z0-9.!#$%&+/=?^_'{|}~-]+@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$/;
+            if(email.value.match(validregex)){
+                alert("enter valid email id");
+                return false;
+
+            }   
+            if (submit.value=validate){
+                alert("registered sucessfully");
+                return true;
+            }         
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <form action="" onsubmit="return validate()" name="reg_form">
+        <table border="1">
+            <thread>
+                <th colspan="2"> registration form validation</th>
+            </thread>
+            <tbody>
+                <tr>
+                    <td> First name:</td>
+                    <td><input type="text" id="fname"></td>
+
+                </tr>
+                <tr>
+                    <td>last name:</td>
+                    <td><input type="text" id="lname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>gender :</td>
+                    <td>male <input type="radio" id="gen" name="gen">Female <input type="radio" id="gen" name="gen"></td>
+                </tr>
+                <tr>
+                    <td>Mobile no:</td>
+                    <td><input type="text" id="mob"></td>
+
+                </tr>
+                <tr>
+                    <td>email:</td>
+                    <td><input type="text" id="email"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" onclick="confSubmit(this.form);" value="registration"/></td>
+                    <td><input type="submit" value="rest"/></td>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+    </center>
+    
+</body>
+</html>
+```
+
+  
+## moving car
+
+  
+### index.html
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>css car</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="main.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sky">
+            <div class="buildings"></div>
+                <div class="road"></div>
+                <div class="car">
+                    <div class="wheel">
+                        <img src="car_wheel_left.png" alt=" ">
+                    </div>
+                    <div class="wheel2">
+                        <img src="car_wheel_right.png" alt=" ">
+                    </div>
+            </div>      
+        </div>  
+    </div>
+</body>
+</html>
+``` 
+
+
+### main.css
+
+```css
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    overflow:hidden;
+    animation: shakebody linear 8s infinte;
+
+}
+.sky{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.buildings{
+    height: 100vh;
+    width: 100%;
+    background-image: url(buldings.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -144px;
+
+}
+.road{
+    height: 60vh;
+    width: 800vw;
+    background-image: url(road.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 70vh;
+    animation: carMove linear 13s infinite;
+
+}
+.car{
+    height: 100px;
+    width: 380px;
+    background-image: url(car_body.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    left: 444px;
+    bottom: 30vh;
+    animation:shake linear .9s infinite;
+}
+.wheel img{
+    width: 77px;
+    position:relative;
+    top:42px;
+    left:42px;
+    animation:wheelRotation linear .5s infinite;
+
+}
+.wheel2 img{
+    width: 77px;
+    position:relative;
+    top:-39px;
+    left:235px;
+    animation:wheelRotation linear .87s infinite;
+}  
+
+@keyframes wheelRotation{
+    100%
+    {
+        transform: rotate(360deg);
+
+    }
+}
+@keyframes  carMove
+{
+ 100%{
+    transform: translateX(-500vw);
+ }
+}
+
+@keyframes shake{
+    0%
+    {
+        transform:translate(-5px);
+    }
+    50%
+    {
+        transform: translate(5px);
+    }
+    100%
+    {
+        transform: translateY(-5px);
+    }
+}
+```
+
 
 
 
