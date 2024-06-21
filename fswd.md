@@ -504,6 +504,111 @@ By using the `table-responsive` class, the table will automatically adjust its l
 
 ![image](https://github.com/ace2884/3-2-shorts/assets/119153850/003a8519-e46a-4e7d-9fca-728d9ce1904e)
 
+Here's a comparison between Angular (versions 2 and above) and AngularJS (version 1.x) in a tabular format, highlighting their key differences:
+
+| Feature                | Angular (versions 2 and above)          | AngularJS   (version 1.x)        |
+|------------------------|----------------------------------------|----------------------------------------|
+| **Architecture**       | Component-based architecture           | MVC (Model-View-Controller) architecture, but uses two-way data binding heavily |
+| **Language**           | TypeScript                             | JavaScript                             |
+| **Rendering**          | Uses Hierarchical Dependency Injection, Ahead-of-Time (AOT) compilation, and Reactive Extensions (RxJS) | Uses two-way data binding and digest cycle for rendering |
+| **Performance**        | Improved performance due to AOT compilation, tree-shaking, and improved change detection | Slower performance due to digest cycle and two-way data binding |
+| **Directives**         | Structural directives (`*ngIf`, `*ngFor`) and attribute directives (e.g., `[ngClass]`) | Directives for DOM manipulation are core to templates |
+| **Dependency Injection** | Hierarchical Dependency Injection system | Global scope Dependency Injection |
+| **Tooling**            | Advanced CLI (Command Line Interface) with features like scaffolding, testing, and build optimization | Limited CLI capabilities, more reliance on third-party tools |
+| **Mobile Support**     | Built-in support for building progressive web apps (PWA) and mobile applications | Limited support, requires additional frameworks like Ionic for mobile development |
+| **Community and Support** | Large active community and frequent updates from Google | Large legacy community, fewer updates |
+| **Learning Curve**     | Steeper learning curve due to TypeScript and new concepts like RxJS | Easier learning curve, especially for developers familiar with JavaScript and HTML |
+| **Backward Compatibility** | Breaking changes between major versions | Backward compatible within the 1.x series |
+| **Development Speed**  | Faster development speed with improved tooling and performance optimizations | Slower development speed due to complex two-way data binding and digest cycle |
+| **Flexibility**        | More flexibility with improved modular architecture and better separation of concerns | Less flexibility due to tightly coupled MVC architecture |
+| **State Management**   | Uses services, RxJS for state management, and NgRx for reactive state management | Relies on `$scope` and event broadcasting for managing application state |
+| **Support and Updates** | Regular updates and long-term support from Angular team | Minimal updates and community-driven support for older versions |
+
+
+
+### AngularJS Mouse Events
+
+AngularJS provides a way to handle mouse events within your application using directives. These events allow you to respond to user interactions with the mouse, such as clicks, double-clicks, mouseover, mouseleave, etc. Here are some common mouse events in AngularJS along with explanations and examples:
+
+
+1. **ng-click**
+
+   - **Description**: Executes an expression when an element is clicked.
+   - **Usage**: Useful for handling click events on buttons, links, or any clickable element.
+   - **Example**:
+     ```html
+     <button ng-click="doSomething()">Click Me</button>
+     ```
+     ```javascript
+     // Controller code
+     $scope.doSomething = function() {
+         alert('Button clicked!');
+     };
+     ```
+
+2. **ng-dblclick**
+
+   - **Description**: Executes an expression when an element is double-clicked.
+   - **Usage**: Useful for handling double-click events on elements.
+   - **Example**:
+     ```html
+     <div ng-dblclick="openModal()">Double-click Me</div>
+     ```
+     ```javascript
+     // Controller code
+     $scope.openModal = function() {
+         // Logic to open a modal
+     };
+     ```
+
+3. **ng-mouseover**
+
+   - **Description**: Executes an expression when the mouse cursor moves over an element.
+   - **Usage**: Useful for triggering actions when the user hovers over an element.
+   - **Example**:
+     ```html
+     <div ng-mouseover="showTooltip = true" ng-mouseleave="showTooltip = false">
+         Hover over me
+         <div ng-show="showTooltip" class="tooltip">Tooltip content</div>
+     </div>
+     ```
+
+4. **ng-mouseleave**
+
+   - **Description**: Executes an expression when the mouse cursor leaves an element.
+   - **Usage**: Useful for hiding elements or resetting states when the user moves the mouse away.
+   - **Example**: See the example above for `ng-mouseover`.
+
+5. **ng-mousedown**
+
+   - **Description**: Executes an expression when the mouse button is pressed down on an element.
+   - **Usage**: Useful for triggering actions when the mouse button is pressed.
+   - **Example**:
+     ```html
+     <div ng-mousedown="startDrawing()">Click and hold to draw</div>
+     ```
+     ```javascript
+     // Controller code
+     $scope.startDrawing = function() {
+         // Logic to start drawing
+     };
+     ```
+
+6. **ng-mouseup**
+
+   - **Description**: Executes an expression when the mouse button is released over an element.
+   - **Usage**: Useful for triggering actions when the mouse button is released.
+   - **Example**:
+     ```html
+     <div ng-mousedown="startDrawing()" ng-mouseup="stopDrawing()">Click and drag to draw</div>
+     ```
+     ```javascript
+     // Controller code
+     $scope.stopDrawing = function() {
+         // Logic to stop drawing
+     };
+     ```
+
 
 # unit 5
 
