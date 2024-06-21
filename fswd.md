@@ -1026,6 +1026,146 @@ $("p[class!='demo']").addClass("one");
 </html>
 ```
 
+
+CSS selectors are used to select the HTML elements you want to style. There are several types of selectors, each with different levels of specificity and purposes. Here’s an overview of the most common CSS selectors:
+
+### 1. Universal Selector
+- **`*`**
+- Selects all elements in the document.
+- Example:
+  ```css
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ```
+
+### 2. Type Selector
+- **`element`**
+- Selects all elements of a given type.
+- Example:
+  ```css
+  p {
+    color: blue;
+  }
+  ```
+
+### 3. Class Selector
+- **`.classname`**
+- Selects all elements with the specified class.
+- Example:
+  ```css
+  .my-class {
+    font-size: 20px;
+  }
+  ```
+
+### 4. ID Selector
+- **`#idname`**
+- Selects the element with the specified ID. IDs should be unique within a page.
+- Example:
+  ```css
+  #my-id {
+    background-color: yellow;
+  }
+  ```
+
+### 5. Attribute Selector
+- Selects elements based on the presence or value of an attribute.
+- Example:
+  ```css
+  /* Select elements with an attribute named data-role */
+  [data-role] {
+    border: 1px solid black;
+  }
+  
+  /* Select elements with an attribute data-role equal to admin */
+  [data-role="admin"] {
+    color: red;
+  }
+  ```
+
+### 6. Descendant Selector
+- **`ancestor descendant`**
+- Selects all elements that are descendants of a specified ancestor.
+- Example:
+  ```css
+  div p {
+    margin: 10px;
+  }
+  ```
+
+### 7. Child Selector
+- **`parent > child`**
+- Selects all elements that are direct children of a specified element.
+- Example:
+  ```css
+  ul > li {
+    list-style: none;
+  }
+  ```
+
+### 8. Sibling Selectors
+- **Adjacent Sibling (`element1 + element2`)**: Selects the element that is immediately preceded by the first specified element.
+  ```css
+  h1 + p {
+    margin-top: 0;
+  }
+  ```
+- **General Sibling (`element1 ~ element2`)**: Selects all elements that are siblings of a specified element.
+  ```css
+  h1 ~ p {
+    color: green;
+  }
+  ```
+
+### 9. Pseudo-class Selector
+- Selects elements based on their state or position.
+- Example:
+  ```css
+  /* Selects the first child of its parent */
+  :first-child {
+    font-weight: bold;
+  }
+
+  /* Selects elements on hover */
+  a:hover {
+    text-decoration: underline;
+  }
+  ```
+
+### 10. Pseudo-element Selector
+- Selects and styles a part of an element.
+- Example:
+  ```css
+  /* Selects the first letter of each paragraph */
+  p::first-letter {
+    font-size: 200%;
+    color: red;
+  }
+
+  /* Selects the content before an element */
+  p::before {
+    content: "Note: ";
+    color: blue;
+  }
+  ```
+
+### 11. Grouping Selector
+- **`selector1, selector2, ...`**
+- Applies the same style to multiple elements.
+- Example:
+  ```css
+  h1, h2, h3 {
+    margin-bottom: 10px;
+  }
+  ```
+
+
+
+
+
+
 # unit 3
 
 ## comparison between MongoDB and RDBMS in a tabular format: 
