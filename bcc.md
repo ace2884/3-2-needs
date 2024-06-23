@@ -263,7 +263,6 @@ Coinbase Wallet is a mobile app and browser extension developed by Coinbase. It 
 - **Ecosystem Dependence:** Heavily integrated with Coinbase services.
 
 
- 
 
 ## Smart Contracts in Blockchain
 
