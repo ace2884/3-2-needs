@@ -578,19 +578,26 @@ Key Features:
 
 •	However, care must be taken to ensure that array operations are gas-efficient and do not exceed the gas limit for a particular transaction.
 
-•	Syntax : <data type> <array name> [size] = <initialization>
+•	Syntax :
+```
+<data type> <array name> [size] = <initialization>
+```
 
 **TYPES OF ARRAYS**
 
 **1. Fixed size arrays**
 •	The size of the array should be predefined. The total number of elements should not exceed the size of the array. 
-•	Ex : - uint[6] data1;
-
+•	Ex :
+```
+ - uint[6] data1;
+```
 **2. Dynamic arrays**
    
 •	The size of the array is not predefined when it is declared. As the elements are added the size of array changes and at the runtime, the size of the array will be determined.
 
-•	Ex : -  int[ ] data1;
+•	Ex :
+```-  int[ ] data1;
+```
 
 #### FUNCTIONS
 
@@ -602,20 +609,24 @@ Key Features:
 
 •	They can also include parameters, which are inputs that are passed to the function.
 
-•	Synatx :    function function_name(parameter_list) scope
+•	Synatx :
+```
+function function_name(parameter_list) scope
    	       returns(return_type){
                                //block of code
 }
-
+```
 •	Functions can be used for a wide range of purposes, from simple data manipulation to complex business logic and smart contract interactions, and they are a key component of writing efficient and secure smart contracts on the Ethereum blockchain.
 
-•	Ex :-  function add() public pure returns(uint) {
+•	Ex :-
+```
+function add() public pure returns(uint) {
            		unit num1 = 10;
 		uint num2  = 16;
 		uint sum = num1 + num2;
 		return sum;
 	 }
-  
+  ```
 #### STRUCTS
 
 •	Structs are user-defined data structures that can contain multiple variables of different data types.
@@ -624,18 +635,22 @@ Key Features:
 
 •	Structs can be passed as parameters to functions and returned as values, allowing for the creation of more flexible and modular code structures in Solidity smart contracts.
 
-•	Syntax :- struct <structure_name>{
+•	Syntax :-
+```
+struct <structure_name>{
 		<data type> variable_1;
 		<data type> variable_2;
 	      }
-       
+ ```
 •	Structs in Solidity can also include functions, allowing for the definition of complex behaviors and interactions between different data structures.
 
-•	Ex : - struct student{
+•	Ex : 
+``` struct student{
 		string name;
 		string subject;
 		uint8 marks;
 	}
+```
 #### MAPPING
 •	Mapping is a key-value data structure that allows for efficient storage and retrieval of data on the Ethereum blockchain.
 
@@ -643,13 +658,17 @@ Key Features:
 
 •	They are similar to dictionaries or hash tables in other programming languages, and they can be used to store a wide range of data, including user balances, transaction records, and smart contract states.
 
-•	Syntax : mapping(key => value) <access specifier>  <name>;
+•	Syntax : 
+```
+mapping(key => value) <access specifier>  <name>;
+```
 
 •	They are used in combination with other data structures like arrays and structs, allowing for the creation of more complex data structures like maps and graphs.
 
 •	Mappings in Solidity are gas-efficient and offer a fast and reliable way to store and retrieve data on the Ethereum blockchain, making them a popular choice for smart contract developers.
 
-•	Ex :- mapping(
-	    address => student) result;
-	    address[] public student_result;
-
+•	Ex :- 
+```
+mapping(address => student) result;
+ address[] public student_result;
+```
