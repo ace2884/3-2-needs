@@ -584,7 +584,6 @@ Identity management in Hyperledger Fabric is underpinned by the MSP's capabiliti
 
 
 
-
 ## Hyperledger Fabric Libraries
 
 **Hyperledger Indy**
@@ -637,6 +636,27 @@ Hyperledger Aries is a toolkit designed to enable the creation, transmission, an
 2. **Agent Framework:** Provides a framework for creating agents (software entities) that handle cryptographic operations and secure messaging.
 3. **Wallets:** Manages cryptographic keys and DIDs securely through agent-based wallets.
 4. **Interoperability:** Facilitates interoperability between different identity networks and technologies by adhering to common standards and protocols.
+
+#### Additional informatiom
+
+**1.	Hyperledger Fabric:** Hyperledger Fabric is intended as a foundation for developing applications and solutions with modular architecture. It provides many benefits like permissioned networks, confidential transactions, etc.
+
+**2.	Hyperledger Sawtooth:** It is an open-source project and used as an enterprise-level blockchain system used for creating and operating distributed ledger applications. Hyperledger sawtooth supports a variety of consensus algorithms like PBFT, and PoET.
+
+**3.	Hyperledger Indy:** It is a project that is made for decentralized identity. It offers lots of libraries, tools, and reusable components for creating decentralized identities.
+
+**4.	Hyperledger Iroha:** It is a blockchain platform designed for infrastructure projects that need distributed ledger technology. It is used to build identity management platforms like national IDs. It can integrate with Linux, macOS, and Windows platforms.
+
+**5.	Hyperledger Burrow:** It is a framework for executing smart contracts in permissioned blockchains. The goal of Hyperledger burrow is to facilitate cross-industry applications for smart contracts. It is built around the BFT consensus algorithm.
+
+**6.	Hyperledger Caliper:** It is a blockchain benchmark tool that allows users to measure the performance of a blockchain implementation with a set of predefined use cases. It will produce reports containing a number of performance indicators to serve as a reference when using the blockchain solutions like Hyperledger Burrow, Hyperledger Fabric, Hyperledger Iroha, and so on.
+
+**7.	Hyperledger Cello:** It serves as an operational dashboard for Blockchain that reduces the effort required for creating, managing, and using blockchains. It provides an operational console for managing blockchain efficiently.
+
+**8.	Hyperledger Explorer:** It is a user-friendly web application tool that is used to view, invoke, deploy, or query blocks, associated data, and network information stored in the ledger. It is regarded as an easy way that allows users to view the necessary network information of the blockchain.
+
+**9.	Hyperledger Besu:** It is an Ethereum client designed to be enterprise-friendly for both public and private blockchain network use cases. It offers many useful features like EVM, several proof-of-authority protocols, a privacy transaction manager to ensure the privacy of transactions, etc.
+
 
 
 
