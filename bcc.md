@@ -431,6 +431,7 @@ Solidity is a programming language developed by the Ethereum Foundation specific
 
 **1. Fixed size arrays**
 •	The size of the array should be predefined. The total number of elements should not exceed the size of the array. 
+
 •	Ex :
 ```
  - uint[6] data1;
@@ -440,7 +441,8 @@ Solidity is a programming language developed by the Ethereum Foundation specific
 •	The size of the array is not predefined when it is declared. As the elements are added the size of array changes and at the runtime, the size of the array will be determined.
 
 •	Ex :
-```-  int[ ] data1;
+```
+-  int[ ] data1;
 ```
 
 #### FUNCTIONS
@@ -479,6 +481,9 @@ function add() public pure returns(uint) {
 
 •	Structs can be passed as parameters to functions and returned as values, allowing for the creation of more flexible and modular code structures in Solidity smart contracts.
 
+
+•	Structs in Solidity can also include functions, allowing for the definition of complex behaviors and interactions between different data structures.
+
 •	Syntax :-
 ```
 struct <structure_name>{
@@ -486,10 +491,11 @@ struct <structure_name>{
 		<data type> variable_2;
 	      }
  ```
-•	Structs in Solidity can also include functions, allowing for the definition of complex behaviors and interactions between different data structures.
 
 •	Ex : 
-``` struct student{
+
+```
+struct student{
 		string name;
 		string subject;
 		uint8 marks;
