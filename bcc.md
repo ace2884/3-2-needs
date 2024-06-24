@@ -173,16 +173,28 @@ Verification of Bitcoin transactions ensures the integrity and validity of trans
 
 # unit- 3
 
-1. **Proof of Work (PoW)**:
-   Proof of Work is a consensus mechanism used in blockchain networks to achieve distributed consensus and validate transactions. In PoW, miners compete to solve complex mathematical puzzles, requiring significant computational power. The first miner to find a solution broadcasts it to the network, and other nodes verify the solution before adding the new block to the blockchain. PoW ensures network security by making it computationally expensive to attack the network, as attackers would need to control a majority of the network's computational power.
+
+1. **Proof of Work (PoW):** This consensus algorithm is used to select a miner for the next block generation. Bitcoin uses this PoW consensus algorithm. The central idea behind this algorithm is to solve a complex mathematical puzzle and easily give out a solution. This mathematical puzzle requires a lot of computational power and thus, the node who solves the puzzle as soon as possible gets to mine the next block. 
+
 
 2. **Attacks on Proof of Work (PoW)**:
    - **51% Attack**: Occurs when an entity gains control of more than 50% of the network's computational power, enabling them to manipulate transactions, double-spend coins, or prevent new transactions from being confirmed.
    - **Selfish Mining**: Involves miners withholding solved blocks from the network, strategically releasing them to gain a competitive advantage and potentially controlling the blockchain's progression.
    - **Sybil Attack**: Involves creating multiple fake identities or nodes to gain control over the network or influence its operations.
+     
+ **Practical Byzantine Fault Tolerance (PBFT):** Practical Byzantine Fault Tolerance is a consensus algorithm introduced in the late 90s by Barbara Liskov and Miguel Castro. pBFT was designed to work efficiently in asynchronous(no upper bound on when the response to the request will be received) systems. It is optimized for low overhead time.
 
-3. **Proof of Stake (PoS)**:
-   Proof of Stake is an alternative consensus mechanism used in blockchain networks, where validators are chosen to create new blocks based on their ownership or stake of the cryptocurrency. In PoS, validators are selected randomly to propose and validate blocks, and their chances of being chosen depend on the amount of cryptocurrency they hold and are willing to "stake" as collateral. PoS is considered more energy-efficient than PoW as it does not require miners to solve complex mathematical puzzles.
+3. **Proof of Stake (PoS):** This is the most common alternative to PoW. Ethereum has shifted from PoW to PoS consensus. In this type of consensus algorithm, instead of investing in expensive hardware to solve a complex puzzle, validators invest in the coins of the system by locking up some of their coins as stakes. After that, all the validators will start validating the blocks. Validators will validate blocks by placing a bet on them if they discover a block that they think can be added to the chain. Based on the actual blocks added in the Blockchain, all the validators get a reward proportionate to their bets, and their stake increase accordingly. In the end, a validator is chosen to generate a new block based on its economic stake in the network. Thus, PoS encourages validators through an incentive mechanism to reach to an agreement.
+
+ **Delegated Proof Of Stake (DPoS):** This is another type of Proof of Stake consensus algorithm. This type of consensus mechanism depends on the basis of the delegation of votes. The users delegate their votes to other users. Whichever user then mines the block will distribute the rewards to the users who delegated to that particular vote. 
+
+ **Proof of Burn (PoB):** With PoB, instead of investing in expensive hardware equipment, validators ‘burn’ coins by sending them to an address from where they are irretrievable. By committing the coins to an unreachable address, validators earn the privilege to mine on the system based on a random selection process. Thus, burning coins here means that validators have a long-term commitment in exchange for their short-term loss. Depending on how the PoB is implemented, miners may burn the native currency of the Blockchain application or the currency of an alternative chain, such as bitcoin. The more coins they burn, the better their chances of being selected to mine the next block. While PoB is an interesting alternative to PoW, the protocol still wastes resources needlessly. And it is also questioned that mining power simply goes to those who are willing to burn more money.
+
+**Proof of Capacity:** In the Proof of Capacity consensus, validators are supposed to invest their hard drive space instead of investing in expensive hardware or burning coins. The more hard drive space validators have, the better their chances of getting selected for mining the next block and earning the block reward.
+
+**Proof of Elapsed Time:** PoET is one of the fairest consensus algorithms which chooses the next block using fair means only. It is widely used in permissioned Blockchain networks. In this algorithm, every validator on the network gets a fair chance to create their own block. All the nodes do so by waiting for a random amount of time, adding proof of their wait in the block. The created blocks are broadcasted to the network for others’ consideration. The winner is the validator which has the least timer value in the proof part. The block from the winning validator node gets appended to the Blockchain. There are additional checks in the algorithm to stop nodes from always winning the election, and stop nodes from generating the lowest timer value.
+There also exist other consensus algorithms like Proof of Activity, Proof of Weight, Proof of Importance, Leased Proof of Stake, etc. It is therefore important to wisely choose one as per the business network requirement because Blockchain networks cannot function properly without the consensus algorithms to verify each and every transaction that is being committed.
+
 
 4. **Differences between Permissioned and Permissionless Blockchains**:
    - **Permissioned Blockchain**: In a permissioned blockchain, access to participate in the network and validate transactions is restricted to authorized participants or nodes. These networks are typically used in enterprise settings where privacy, control, and compliance are paramount.
