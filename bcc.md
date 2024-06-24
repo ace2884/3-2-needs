@@ -328,7 +328,7 @@ Coinbase Wallet is a mobile app and browser extension developed by Coinbase. It 
 6.	Management: The blockchain application in management can streamline and automate many decisions that are taken late or deferred. Every decision is transparent and available to any party who has the authority(an application on the private blockchain). For example, a smart contract can be deployed to trigger the supply of raw materials when 10 tonnes of plastic bags are produced.
 7.	Healthcare: Automating healthcare payment processes using smart contracts can prevent fraud. Every treatment is registered on the ledger and in the end, the smart contract can calculate the sum of all the transactions. The patient can’t be discharged from the hospital until the bill has been paid and can be coded in the smart contract
 
-### VALUE TYPES
+## VALUE TYPES
 •	Value types are data types that hold a value directly and are not pointers to memory locations.
 •	Value types in Solidity are passed by value.
 •	Value type data types in solidity are listed below:
