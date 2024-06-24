@@ -90,31 +90,40 @@
 3. **Mining Algorithm**:
    The mining algorithm used in Bitcoin is called SHA-256 (Secure Hash Algorithm 256-bit). Miners use this algorithm to hash the block header and nonce repeatedly until they find a hash value that meets the network's difficulty target. The SHA-256 algorithm ensures that the process is computationally difficult and random, requiring miners to expend significant computational resources to find a valid block hash.
 
-4. **Hardness of Mining**:
+**The mining algorithm consists of the following steps.**
+-	The previous hash block is retrieved from the bitcoin network.
+-	Assemble a set of potential transactions broadcasted on the network into a block.
+-	Compute the double hash of the block header with a nonce and the previous hash using the SHA256 algorithm.
+-	If the resultant hash is lower than the current difficulty level (target), then stop the process.
+-	If the resultant hash is greater than the current difficulty level (target), then repeat the process by incrementing the nonce. As the hash rate of the bitcoin network increased, the total amount of 32-bit nonces was exhausted too quickly. In order to address this issue, the extra nonce solution was implemented, whereby the coinbase transaction is used as a source of extra nonce to provide a larger range of nonces to be searched by the miners.
+-	Mining difficulty increased over time and bitcoins that could be mined by single CPU laptop computers now require dedicated mining centers to solve the hash puzzle.
+
+
+5. **Hardness of Mining**:
    Mining hardness refers to the level of difficulty involved in successfully mining a block on the blockchain. As more miners join the network and computational power increases, the difficulty of the cryptographic puzzle (Proof of Work) also increases. This hardness ensures that blocks are mined at a predictable rate, maintaining the security and integrity of the blockchain.
 
-5. **Types of Bitcoin Wallets**:
+6. **Types of Bitcoin Wallets**:
    - **Hardware Wallets**: Physical devices that store the user's private keys offline, providing enhanced security.
    - **Software Wallets**: Applications or software programs that store private keys on a computer or mobile device.
    - **Paper Wallets**: Physical documents containing the user's private keys or QR codes for offline storage.
    - **Web Wallets**: Wallets hosted on online platforms or exchanges, accessible through a web browser.
    - **Mobile Wallets**: Wallet applications designed for mobile devices, offering convenience and portability.
 
-6. **Intentional Forks**:
+7. **Intentional Forks**:
    Intentional forks occur when developers and stakeholders deliberately introduce changes to the blockchain protocol, resulting in a divergence of the blockchain's history. These forks can be planned upgrades or changes to the network's rules, aiming to improve functionality, scalability, or security.
 
-7. **Code-Based Forks**:
+8. **Code-Based Forks**:
    Code-based forks occur when there is a disagreement within the community regarding proposed changes to the blockchain protocol. This results in a split in the network, with one faction following the original protocol and another adopting the new rules. Code-based forks can be contentious and may lead to the creation of new cryptocurrencies.
 
-8. **Reasons for Forks in Blockchain**:
+9. **Reasons for Forks in Blockchain**:
    - Disagreements Over Protocol Changes: Differences in opinion among developers and stakeholders regarding proposed changes to the blockchain protocol.
    - Software Bugs or Vulnerabilities: Discovery of critical bugs or vulnerabilities in the blockchain software that require immediate action to fix.
    - Desire for Innovation or Improvement: Intentional forks initiated by developers to introduce new features, improve scalability, or address security concerns.
 
-9. **Bitcoin Scripts**:
+10. **Bitcoin Scripts**:
    Bitcoin Scripts are a scripting language used to define the conditions under which bitcoins can be spent. These scripts are embedded in transaction outputs and typically specify cryptographic conditions that must be met for the recipient to spend the bitcoins. Bitcoin Scripts enable various types of transactions, including multi-signature transactions, time-locked transactions, and conditional payments.
 
-10. **Distributed Consensus**:
+11. **Distributed Consensus**:
     Distributed consensus refers to the collective agreement among nodes in a decentralized network regarding the state of the network and the validity of transactions. In blockchain networks like Bitcoin, distributed consensus is achieved through mechanisms such as Proof of Work or Proof of Stake, where nodes compete or cooperate to validate and record transactions in a secure and decentralized manner. Consensus algorithms ensure that all participants in the network reach an agreement on the order and validity of transactions, maintaining the integrity of the blockchain.
 
 
