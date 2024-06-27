@@ -14,7 +14,9 @@
 
 5. **IoT Paradigm and Related Networks**: IoT paradigm involves interconnected devices communicating over various networks such as LAN, WAN, or the Internet. These networks facilitate data exchange between devices and central systems for monitoring, analysis, and control purposes.
 
-6. **Body Sensor Network (BSN)**: BSN consists of wearable sensors attached to or implanted in the human body to monitor physiological parameters. These sensors collect data which is transmitted wirelessly to a central monitoring system for analysis. Diagram: ![image](https://github.com/ace2884/iot-shorts/assets/119153850/cefe678e-3a85-4430-b75e-d25872dc3b0b)
+6. **Body Sensor Network (BSN)**: BSN consists of wearable sensors attached to or implanted in the human body to monitor physiological parameters. These sensors collect data which is transmitted wirelessly to a central monitoring system for analysis. Diagram:
+
+![Screenshot 2024-06-27 194624](https://github.com/ace2884/3-2-needs/assets/119153850/2056be6a-3f02-42f5-8993-38bee8e2de58)
 
 
 7. **Evolution of Identification**: Evolution of identification has progressed from manual methods like name tags to barcode systems, RFID, and biometric authentication. Diagram: [Identification Evolution Diagram]
