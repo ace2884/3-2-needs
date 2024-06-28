@@ -207,7 +207,8 @@ Sensor Network Architecture refers to the structural design of networks composed
 - **Bluetooth 5.0:** Enhanced range, speed, and broadcasting capacity.
 
 
-## **Issues with IoT Standardization**: Challenges with IoT standardization include interoperability issues between different devices and platforms, security concerns related to data privacy and cyber threats, and the complexity of managing diverse networks and protocols.
+## **Issues with IoT Standardization**: 
+Challenges with IoT standardization include interoperability issues between different devices and platforms, security concerns related to data privacy and cyber threats, and the complexity of managing diverse networks and protocols.
 Standardization is like a double-edged sword:
   Critical to market development 
  But it may threaten innovation and inhibit change when standards are accepted by the market 
@@ -220,20 +221,20 @@ For example, 3GPP(3rd Generation Partnership Project) covers only cellular wirel
  Some people believe that the IoT concept is well established 
  However, some gray zones remain in the definition, especially which technology should be included
 
+## comparison between UDP (User Datagram Protocol) and TCP (Transmission Control Protocol):
 
-## **TCP (Transmission Control Protocol):**
-- **Connection-oriented:** Establishes a connection before data transfer.
-- **Reliability:** Ensures data delivery with error checking and retransmission.
-- **Flow Control:** Manages data rate between sender and receiver.
-- **Overhead:** Higher due to connection management and error handling.
-- **Use Cases:** Web browsing, email, file transfers.
+| Feature                   | UDP                                       | TCP                                                |
+|---------------------------|-------------------------------------------|----------------------------------------------------|
+| **Connection**            | Connectionless protocol.                  | Connection-oriented protocol.                      |
+| **Reliability**           | Unreliable delivery.                      | Reliable delivery with error checking and retransmission. |
+| **Ordering**              | No guaranteed ordering of packets.         | Guaranteed ordering of packets.                    |
+| **Header Size**           | Smaller header size (8 bytes).            | Larger header size (20 bytes without options).     |
+| **Congestion Control**    | No congestion control mechanism.          | Implements congestion control to avoid network congestion. |
+| **Flow Control**          | No built-in flow control.                 | Implements flow control to manage data transmission rates. |
+| **Error Checking**        | Limited error checking (checksum).        | Extensive error checking (checksum, sequence numbers, acknowledgments). |
+| **Usage**                 | Used for real-time applications (e.g., VoIP, video streaming). | Used for applications requiring reliable data transfer (e.g., web browsing, file transfer). |
+| **Examples**              | DNS, VoIP (Voice over IP), online games.  | HTTP, HTTPS, FTP, email (SMTP), SSH.               |
 
-## **UDP (User Datagram Protocol):**
-- **Connectionless:** Sends data without establishing a connection.
-- **Reliability:** No guarantees on data delivery, error checking, or retransmission.
-- **Flow Control:** Minimal, leading to lower latency.
-- **Overhead:** Lower due to lack of connection and error management.
-- **Use Cases:** Streaming media, online gaming, VoIP.
 
 ## **Explain Protocols used in Four Pillars of IoT**
 
