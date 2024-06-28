@@ -232,14 +232,6 @@ Sensor Network Architecture refers to the structural design of networks composed
 
 **Transducer:** A device that converts one form of energy into another, typically used to convert physical quantities into electrical signals or vice versa. Sensors and actuators are types of transducers.
 
-## Define RFID tag with its types?
-
-**RFID Tag:** A device that uses radio frequency technology for identification and tracking of objects. 
-
-**Types:**
-- **Passive RFID Tags:** No internal power source, activated by the RFID reader’s signal.
-- **Active RFID Tags:** Have an internal battery, providing a longer range and more memory.
-- **Semi-Passive RFID Tags:** Have a battery to power the tag's circuitry but rely on the RFID reader to power the signal transmission.
 
 ## Explain different types of Sensors with Example?
 
