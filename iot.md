@@ -417,16 +417,6 @@ Mobile Cloud Computing (MCC) is an infrastructure where both data storage and da
 -	 Security surveillance .
 
 
-## Describe Multitier Cloud Architecture Based on Middleware
-
-**Multitier Cloud Architecture:**
-- **Definition:** A cloud architecture that separates application components into multiple layers or tiers, each responsible for specific functionalities.
-- **Tiers:**
-  - **Presentation Layer:** User interface and interaction.
-  - **Application Layer:** Business logic and processing.
-  - **Data Layer:** Data storage and management.
-- **Middleware:** Acts as an intermediary layer facilitating communication and data management between tiers.
-- **Benefits:** Scalability, modularity, ease of maintenance, improved performance.
 
 
 ##  Describe Evolution of IoT in the Cloud
