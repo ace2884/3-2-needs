@@ -1196,20 +1196,6 @@ Machine-to-Machine (M2M) communication is a foundational technology for the Inte
 **Medium Access** refers to the method by which multiple devices or nodes in a network contend for and access a shared communication medium, such as a wireless channel or a wired network. Medium access protocols define rules and procedures for how devices can transmit data to avoid collisions and ensure efficient use of the communication medium. Examples of medium access protocols include Carrier Sense Multiple Access (CSMA), Time Division Multiple Access (TDMA), and Code Division Multiple Access (CDMA).
 
 
-##  What are the advantages of Smart Parking?
-
-**Advantages of Smart Parking**:
-
-1. **Reduced Congestion:** Smart parking systems help drivers locate available parking spaces quickly, reducing traffic congestion and associated emissions.
-2. **Improved User Experience:** Drivers spend less time searching for parking, leading to a better overall experience.
-3. **Optimized Space Utilization:** Smart parking systems maximize the utilization of parking spaces, reducing the need for additional parking infrastructure.
-4. **Increased Revenue:** Dynamic pricing and efficient space allocation can generate additional revenue for parking operators.
-5. **Environmental Impact:** By reducing circling and idling, smart parking systems contribute to lower fuel consumption and air pollution.
-
-##  Discuss about data caching.
-
-**Data caching** involves storing frequently accessed or critical data closer to the point of use to improve response times, reduce network traffic, and enhance system performance. In IoT, data caching is particularly useful for storing sensor data, configuration settings, and reference data locally on devices or at edge servers. By caching data, IoT systems can minimize latency, improve scalability, and enhance reliability. Data caching strategies include cache placement (edge vs. cloud), cache invalidation and refresh, cache consistency, and cache management (e.g., cache replacement policies). Use cases of data caching in IoT include smart home applications, industrial IoT (IIoT) for predictive maintenance, and smart cities for traffic optimization.
-
 ##  List out the different data pricing models.
 
 **Different Data Pricing Models**:
@@ -1222,28 +1208,11 @@ Machine-to-Machine (M2M) communication is a foundational technology for the Inte
 6. **Metered Pricing:** Charges based on specific metrics, such as the number of data transactions or API calls.
 7. **Dynamic Pricing:** Pricing varies based on factors such as demand, time of day, or user location.
 
-##  What are the advantages of smart farming?
-
-**Advantages of Smart Farming**:
-
-1. **Precision Agriculture:** Smart farming technologies enable precise monitoring and management of crops, leading to optimized resource usage and higher yields.
-   
-2. **Resource Efficiency:** By leveraging IoT sensors, farmers can optimize water usage, reduce pesticide and fertilizer application, and minimize waste.
-
-4. **Data-Driven Decision Making:** Real-time data analytics provide insights into crop health, soil conditions, and weather patterns, allowing farmers to make informed decisions.
-
-5. **Labor Savings:** Automation of tasks such as irrigation, fertilization, and harvesting reduces the need for manual labor, leading to cost savings and increased efficiency.
-
-6. **Environmental Sustainability:** Smart farming practices promote sustainable agriculture by minimizing environmental impact, conserving natural resources, and reducing greenhouse gas emissions.
-
-7. **Risk Management:** Early detection of crop diseases, pests, and adverse weather events allows farmers to implement timely interventions and mitigate risks to crop yields.
-
-8. **Improved Quality and Traceability:** Smart farming technologies help ensure the quality and traceability of agricultural products, enhancing food safety and meeting regulatory requirements.
 
 
-## Describe briefly Data caching in IoT.
 
-### Data Caching
+## Data caching in IoT.
+
 •	 Caching Data is a process that stores multiple copies of data or files in a temporary storage location—or cache—so they can be accessed faster. 
 
 •	It saves data for software applications, servers, and web browsers, which ensures users need not download information every time they access a website or application to speed up site loading.
@@ -1258,6 +1227,7 @@ Machine-to-Machine (M2M) communication is a foundational technology for the Inte
 
 
 ### How Does Caching Work?
+
 •	Cached data works by storing data for re-access in a device’s memory. 
 
 •	The data is stored high up in a computer’s memory just below the central processing unit (CPU). 
@@ -1270,6 +1240,7 @@ Machine-to-Machine (M2M) communication is a foundational technology for the Inte
 
 
 ### Benefits of Caching
+
 •	When a user visits a new website, their browser needs to download data to load and display the content on the page.
 
 •	To speed up this process for a user's future visit, browsers cache the content on the page and save a copy of it on the device hard drive.	As a result, the next time the user goes to that website, the content is already stored on their device and the page will load faster.
@@ -1288,6 +1259,7 @@ Machine-to-Machine (M2M) communication is a foundational technology for the Inte
 ## Describe the procedure to implement smart parking using IoT.
 
 ### Smart Parking
+
 •	An IoT-based parking system is a centralized management that enables drivers to search for and reserve a parking spot remotely through their smartphones. 
 
 •	It offers a convenient arrangement for drivers to park their cars when they are looking to avoid potential traffic congestion.
@@ -1333,6 +1305,7 @@ Machine-to-Machine (M2M) communication is a foundational technology for the Inte
 •	Monitor environmental conditions in parking garages, such as air quality and temperature, to ensure the safety of occupants. 
 
 ### IoT-based sensing devices  used for smart parking
+
 •	Ultrasonic sensors measure the distance of a target object by eliminating ultrasonic sound waves and convert the reflected sound into an electrical signal.
 
 •	Electromagnetic field detection is helpful to detect metals as they pick up minute changes in the magnetic field.
@@ -1347,6 +1320,24 @@ Machine-to-Machine (M2M) communication is a foundational technology for the Inte
 •	Increased efficiency
 
 •	Improved customer experience
+
+
+
+## Advantages of Smart Farming
+
+1. **Precision Agriculture:** Smart farming technologies enable precise monitoring and management of crops, leading to optimized resource usage and higher yields.
+   
+2. **Resource Efficiency:** By leveraging IoT sensors, farmers can optimize water usage, reduce pesticide and fertilizer application, and minimize waste.
+
+4. **Data-Driven Decision Making:** Real-time data analytics provide insights into crop health, soil conditions, and weather patterns, allowing farmers to make informed decisions.
+
+5. **Labor Savings:** Automation of tasks such as irrigation, fertilization, and harvesting reduces the need for manual labor, leading to cost savings and increased efficiency.
+
+6. **Environmental Sustainability:** Smart farming practices promote sustainable agriculture by minimizing environmental impact, conserving natural resources, and reducing greenhouse gas emissions.
+
+7. **Risk Management:** Early detection of crop diseases, pests, and adverse weather events allows farmers to implement timely interventions and mitigate risks to crop yields.
+
+8. **Improved Quality and Traceability:** Smart farming technologies help ensure the quality and traceability of agricultural products, enhancing food safety and meeting regulatory requirements.
 
 
 ## Describe the methodology used for Plant and Farming using IoT.
