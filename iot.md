@@ -512,6 +512,10 @@ As an example, VAMOS(Virtualization aware middleware) , built by IBM, is a novel
 
 The National Institute of Standards and Technology (NIST) has defined a cloud computing reference architecture that includes three primary service models: Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS). This is commonly referred to as the SPI model. Here’s a detailed overview of each component of NIST’s SPI architecture:
 
+
+![WhatsApp Image 2024-06-28 at 23 34 52_263b91cd](https://github.com/ace2884/3-2-needs/assets/119153850/5ba8c6bc-7e9d-4cd7-a473-24200c823600)
+
+
 ### five essential characteristics 
 
 1. **On-Demand Self-Service**
