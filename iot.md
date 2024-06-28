@@ -1430,23 +1430,24 @@ Machine-to-Machine (M2M) communication is a foundational technology for the Inte
 
 • Technologies available for present-day farmers are:
 
-	Sensors: soil, water, light, humidity, temperature management
+-	Sensors: soil, water, light, humidity, temperature management
 
-	Software:  specialized software solutions that target specific farm types or applications agnostic IoT platforms 
+-	Software:  specialized software solutions that target specific farm types or applications agnostic IoT platforms 
 
-	Connectivity: cellular, LoRa 
+-	Connectivity: cellular, LoRa 
 
-	Location: GPS, Satellite
+-	Location: GPS, Satellite
 
-	Robotics: Autonomous tractors, processing facilities
+-	Robotics: Autonomous tractors, processing facilities
 
-	Data analytics: standalone analytics solutions, data pipelines for downstream solutions
+-	Data analytics: standalone analytics solutions, data pipelines for downstream solutions
 
 
 ![image](https://github.com/ace2884/3-2-shorts/assets/119153850/d6808890-b0cd-4e31-a6c5-784037e89227)
 
 ### The IoT-Based Smart Farming Cycle
 •	     IoT devices installed on a farm should collect and process data in a repetitive cycle that enables farmers to react quickly to emerging issues and changes in ambient conditions. Smart farming follows a cycle similar to this one:
+
 •**Observation** . Sensors record observational data from the crops, livestock, soil, or atmosphere. 
 
 • **Diagnostics.** The sensor values are fed to a cloud-hosted IoT platform with predefined decision rules and models—also called “business logic”—that ascertain the condition of the examined object and identify any deficiencies or needs.
@@ -1465,6 +1466,74 @@ Machine-to-Machine (M2M) communication is a foundational technology for the Inte
 •	Agricultural Drones
 
 •	Third Green Revolution
+
+
+## Smart Home
+•	A smart home is a household with internet-connected appliances those appliances   remotely controlled by using a tablet or smartphone. 
+
+•	It uses smart devices such as smart TVs, smart thermostats, air conditioners, and even a robot vacuum.
+
+•	 They are then connected together in a single network, through either hardwired or wireless systems like Zigbee, Wi-Fi, Bluetooth, and NFC, among others.
+
+•	Using the Internet of Things (IoT) technology,  smart appliances can communicate and share real time data with each other.
+
+•	 This allows the devices to perform scheduled and automated tasks.
+
+•	IoT home gadgets bounce data back and forth with the use of sensors, learning and processing the patterns to automatically adjust themselves according to customers comfort.
+
+•	 Some smart home Internet of Things applications are automatic light switches, burglar alarms, and voice-activated sound systems.
+
+#### IoT Applications in the Smart Home
+-	Electricity
+-	Climate
+-	Leak Protection
+-	Multimedia
+-	Home Security
+
+## Smart cities
+- Smart city is  defined as a city that uses IoT and ICT (information and communications technology) to enhance infrastructure and services provided to citizens and businesses.
+- A smart city project aims to streamline a city’s day-to-day operations.
+-	A smart city uses several technologies, such as IoT, artificial intelligence (AI), software solutions, communication networks, and more.
+-	IoT is the key to turning a city into a smart city. 
+-	IoT is a system of several connected devices, such as sensors, vehicles, and home appliances.
+-	 IoT devices can communicate and transfer data via the internet without any human intervention. 
+### Key characteristics of a smart city or IoT smart city are:
+-	Smart city infrastructure based on advanced technology
+-	Environmental friendly initiatives
+-	Smart public transport system
+•	Integrated urban planning
+-	Ability to allow citizens to interact with smart city ecosystems, connected buildings, mobile devices, etc.
+-	IoT technology is at the core of smart cities. From connected vehicles and connected buildings to internet-connected garbage bins and IoT-based fleet management, there are many IoT solutions for smart cities.
+-	The internet of things for smart cities allows city officials to manage and control connected devices remotely and ensure smooth operations.
+-	Although smart cities involve several factors, smart city architecture in IoT usually progresses through three basic steps.
+-	First, IoT sensors (installed throughout the city) collect real-time data. 
+-	Next, analytics systems or data analysts analyze the sensors’ data to gain valuable insights. 
+-	Finally, smart city organizers use the insights to create smart solutions, optimize operations, and improve efficiency and services provided to the residents.
+### Applications of IoT in Smart Cities
+- Smart Lighting Systems
+-	Smart Traffic Management
+-	IoT-based Smart Waste Management in Cities
+-	IoT-based Transport and Healthcare
+-	IoT for Smart Parking
+### Advantages of IoT Solutions for Smart Cities
+- Enhanced Efficiency and Effectiveness
+-	Reduced Crime
+-	Better Environment
+-	Better Services
+-	Reduced Traffic Congestion
+
+### Smart City Cloud Computing and IoT
+-	IoT-based devices produce a lot of data. Hence, they need a place to store this data, but these devices usually have limited storage, performance capabilities, and power supplies. This is where cloud computing comes in.
+-	The cloud offers shared resources, such as networks, storage, software, and servers. Smart cities can store the data collected by IoT sensors in the cloud’s unlimited storage.
+-	Cloud services and smart city cloud platforms also enable city officials to embed IoT data within IoT-connected electronic devices.
+### Smart Cities Examples
+-	London: London has developed a SmartPark project for smart parking to reduce traffic congestion. This project allows the citizens to locate parking spaces instantly.
+-	Paris: Paris has announced the Paris Smart City 2050 project, which aims to create several high-rise buildings with positive energy output.
+-	Pune: One of the biggest examples of a smart city in India is Pune, which is working on adopting IoT technology to improve the quality of life for citizens. Pune has already implemented smart LED and e-bikes.
+-	The Nordic Smart City Network is based on a collaboration of 20 cities in five Nordic countries. The purpose of the network is to “explore the Nordic way to create livable and sustainable cities.”
+
+
+
 
 
 
