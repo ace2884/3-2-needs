@@ -561,59 +561,21 @@ The National Institute of Standards and Technology (NIST) has defined a cloud co
 
 ### NIST's Deployment models
 
-#### 1. Public Cloud
+**Public Cloud**
 
-- The public cloud is a cloud deployment model where services are delivered over the internet and shared across multiple organizations (tenants). The cloud infrastructure is owned and managed by a third-party cloud service provider.
+The public cloud makes it possible for anybody to access systems and services. The public cloud may be less secure as it is open to everyone. The public cloud is one in which cloud infrastructure services are provided over the internet to the general people or major industry groups. The infrastructure in this cloud model is owned by the entity that delivers the cloud services, not by the consumer. It is a type of cloud hosting that allows customers and users to easily access systems and services. This form of cloud computing is an excellent example of cloud hosting, in which service providers supply services to a variety of customers. In this arrangement, storage backup and retrieval services are given for free, as a subscription, or on a per-user basis. For example, Google App Engine etc.
 
- **Characteristics:**
-- **Scalability:** High scalability to accommodate fluctuating workloads.
-- **Cost-Effectiveness:** Pay-as-you-go pricing models reduce the need for significant capital expenditure.
-- **Accessibility:** Services are accessible from anywhere with an internet connection.
-- **Minimal Maintenance:** The cloud provider manages the infrastructure, reducing the need for in-house IT management.
+**Private Cloud**
 
- **Use Cases in IoT:**
-- **Smart Cities:** Data from various sensors (traffic, weather, pollution) can be processed and analyzed in real-time using the scalable resources of the public cloud.
-- **Consumer IoT:** Applications like smart home devices and wearable technology leverage public cloud services for data storage and processing.
+he private cloud deployment model is the exact opposite of the public cloud deployment model. It’s a one-on-one environment for a single user (customer). There is no need to share your hardware with anyone else. The distinction between private and public clouds is in how you handle all of the hardware. It is also called the “internal cloud” & it refers to the ability to access systems and services within a given border or organization. The cloud platform is implemented in a cloud-based secure environment that is protected by powerful firewalls and under the supervision of an organization’s IT department. The private cloud gives greater flexibility of control over cloud resources.
 
-#### 2. Private Cloud
+**Hybrid Cloud**
 
-- The private cloud is a cloud deployment model where the cloud infrastructure is used exclusively by a single organization. It can be managed internally or by a third-party provider, and it can be hosted on-premises or off-premises.
+By bridging the public and private worlds with a layer of proprietary software, hybrid cloud computing gives the best of both worlds. With a hybrid solution, you may host the app in a safe environment while taking advantage of the public cloud’s cost savings. Organizations can move data and applications between different clouds using a combination of two or more cloud deployment methods, depending on their needs. 
 
- **Characteristics:**
-- **Enhanced Security:** Greater control over data security and privacy, suitable for sensitive applications.
-- **Customization:** Infrastructure can be tailored to specific organizational needs and compliance requirements.
-- **Resource Control:** Full control over the hardware and software resources.
+**Community Cloud**
 
- **Use Cases in IoT:**
-- **Healthcare:** Medical devices generating sensitive patient data can utilize private clouds to ensure compliance with healthcare regulations (e.g., HIPAA).
-- **Industrial IoT:** Manufacturing plants using IoT for automation and monitoring can benefit from the security and control of private clouds.
-
-#### 3. Hybrid Cloud
-
-- The hybrid cloud is a cloud deployment model that combines public and private clouds, allowing data and applications to be shared between them. This model provides greater flexibility and optimized deployment based on specific needs.
-
-**Characteristics:**
-- **Flexibility:** Organizations can run sensitive workloads in private clouds and leverage public clouds for less sensitive workloads or for scaling.
-- **Cost Optimization:** Balance between cost savings and resource control.
-- **Disaster Recovery:** Use public clouds as backup or for disaster recovery to ensure business continuity.
-
-**Use Cases in IoT:**
-- **Smart Grids:** Energy companies can use private clouds for critical grid control systems while analyzing consumption data in the public cloud.
-- **Automotive IoT:** Autonomous vehicles can process critical data on private clouds for safety and reliability, while leveraging public clouds for software updates and non-critical data analytics.
-
-#### 4. Community Cloud
-
-- The community cloud is a cloud deployment model where the cloud infrastructure is shared among several organizations with common concerns (e.g., mission, security requirements, policy, and compliance considerations). It can be managed by the organizations or a third-party provider.
-
-**Characteristics:**
-- **Shared Resources:** Infrastructure is shared among organizations with similar needs, leading to cost savings.
-- **Collaborative:** Facilitates collaboration and data sharing among member organizations.
-- **Security and Compliance:** Tailored to meet the specific regulatory and security requirements of the community.
-
- **Use Cases in IoT:**
-- **Research Institutions:** Universities and research organizations working on joint IoT projects can share resources and data within a community cloud.
-- **Government Agencies:** Various government departments can share infrastructure to manage IoT data for public safety, transportation, and other services.
-
+It allows systems and services to be accessible by a group of organizations. It is a distributed system that is created by integrating the services of different clouds to address the specific needs of a community, industry, or business. The infrastructure of the community could be shared between the organization which has shared concerns or tasks. It is generally managed by a third party or by the combination of one or more organizations in the community.
 
 ### Key Features and Benefits of NIST’s SPI Architecture
 
