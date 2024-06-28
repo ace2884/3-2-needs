@@ -1,4 +1,4 @@
-# unit 1,2,2.5 shorts :
+# unit 1,2,2.5  :
 
 
 ## IoT with its applications.
@@ -60,16 +60,20 @@ Telematics terminal architecture involves the integration of telecommunications 
 2. **Bidirectional V2G:** Vehicles can both draw energy from and supply energy to the grid.
 3. **V2H (Vehicle-to-Home):** Vehicles supply power directly to a home, often in cases of power outages.
 
+## Four Pillars of IOT
+
+**M2M**
+- it uses devices (such as an in-vehicle gadget) to capture events (such as an engine disorder), via a network (mostly cellular wireless networks, sometimes wired or hybrid) connection to a central server (software program), that translates the captured events into meaningful information (alert failure to be fixed).
+**RFID**
+- it uses radio waves to transfer data from an electronic tag attached to an object to a central system through a reader for the purpose of identifying and tracking the object. 
+**WSN**
+  - It consists of spatially distributed autonomous sen sors to monitor physical or environmental conditions, such as temperature, pressure, motion, or pollutants, and to cooperatively pass their data through the network, mostly short-range wireless mesh networks, sometimes wired or hybrid, to a main location. 
+**SCADA**
+- It is an autonomous system based on closed-loop control theory or a smart system or a CPS that connects, monitors, and controls equipment via the network (mostly wired short-range networks, a.k.a., field buses, sometimes wireless or hybrid) in a facility such as a plant or a building
+
+
 ##  IoT paradigm and related networks.
 
-
-The IoT paradigm involves interconnected devices and systems working together to collect, process, and analyze data to make informed decisions.
-
-**Components:**
-- **Sensors and Actuators:** Capture and interact with data.
-- **Connectivity:** Networks that connect devices (Wi-Fi, Bluetooth, Zigbee).
-- **Data Processing:** Cloud or edge computing for data analysis.
-- **User Interface:** Applications and dashboards for end-users.
 
 ![Screenshot 2024-06-27 200438](https://github.com/ace2884/3-2-needs/assets/119153850/3d5c4834-21b9-44c2-a919-0aeea88e385a)
 
@@ -118,7 +122,9 @@ Identification has evolved from basic visual identification to advanced digital 
 - **Usage:** International, including Europe.
 - **Structure:** Numeric only.
 
-##  Draw the Sensor Network Architecture.
+##   Sensor Network Architecture.
+
+![image](https://github.com/ace2884/3-2-needs/assets/119153850/3c1a875e-e1d0-44d6-9897-19da3d37e698)
 
 Sensor Network Architecture refers to the structural design of networks composed of distributed sensor nodes that collect, process, and transmit data to centralized systems for analysis and decision-making. Here is a detailed tabular format of typical Sensor Network Architecture:
 
