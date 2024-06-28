@@ -237,24 +237,6 @@ For example, 3GPP(3rd Generation Partnership Project) covers only cellular wirel
  
 # unit 4 short :
 
-
-##  Compare IoT Red Ocean versus Blue Ocean
-
-**IoT Red Ocean:**
-- **Competition:** High, with many players offering similar IoT solutions.
-- **Market Focus:** Existing markets with well-defined demand.
-- **Innovation:** Incremental improvements to compete.
-- **Strategy:** Compete for market share through cost reduction and feature enhancements.
-- **Example:** Competing smart home device manufacturers.
-
-**IoT Blue Ocean:**
-- **Competition:** Low or none, creating new markets.
-- **Market Focus:** Untapped or non-existent markets.
-- **Innovation:** Disruptive innovations creating new demand.
-- **Strategy:** Create new value propositions to unlock new customer bases.
-- **Example:** IoT solutions for remote healthcare monitoring in underdeveloped regions.
-
-
 ##  List the Cloud Providers/Open Source Projects for IoT
 
 **Cloud Providers for IoT:**
@@ -305,18 +287,8 @@ Mobile Cloud Computing (MCC) is an infrastructure where both data storage and da
 
 ##  Compare IoT vs Cloud Computing
 
-**IoT (Internet of Things):**
-- **Focus:** Connecting physical devices to collect and exchange data.
-- **Components:** Sensors, actuators, connectivity, and edge devices.
-- **Use Cases:** Smart homes, industrial automation, healthcare monitoring, etc.
-- **Challenges:** Connectivity, interoperability, security, and data management.
+![image](https://github.com/ace2884/3-2-needs/assets/119153850/81bbbdda-d2fd-43b6-a4ba-d847c260cb72)
 
-**Cloud Computing:**
-- **Focus:** Providing on-demand computing resources and services over the internet.
-- **Components:** Virtual servers, storage, databases, networking, and software.
-- **Use Cases:** Web hosting, big data analytics, machine learning, application development, etc.
-- **Challenges:** Data security, compliance, service reliability, and managing costs.
-  
 
 
 ##  Explain Various Cloud Providers
@@ -383,14 +355,18 @@ Mobile Cloud Computing (MCC) is an infrastructure where both data storage and da
 
 ## Explain Vertical Applications
 
-**Vertical Applications:**
-- **Definition:** Industry-specific applications that address the particular needs of a specific market or industry sector.
-- **Examples:** 
-  - **Healthcare:** Remote patient monitoring, telemedicine.
-  - **Agriculture:** Precision farming, crop monitoring.
-  - **Manufacturing:** Predictive maintenance, industrial automation.
-  - **Transportation:** Fleet management, smart logistics.
-- **Characteristics:** Tailored features and functionalities, compliance with industry regulations, integration with industry-specific hardware and systems.
+•	Telematics, fleet management, transportation
+•	 Smart grid, energy efficiency
+•	 Smarter planet
+•	 Environmental protection 
+•	 Logistics, retail
+•	 Healthcare
+•	Security/surveillance 
+•	 Resources (such as water resource management, etc.) 
+•	Industrial automation 
+•	Home automation, buildings 
+•	Food safety, agriculture 
+•	 Security surveillance .
 
 ##  Define NIST’s SPI Architecture
 
@@ -456,6 +432,40 @@ Mobile Cloud Computing (MCC) is an infrastructure where both data storage and da
 
 ![image](https://github.com/ace2884/3-2-shorts/assets/119153850/01850c0a-b93a-43b9-9b74-88eaf1ae3f38)
 
+**Cloud Middleware:**
+•	Like  Internet of Things, the cloud computing system is also a multitier architecture built on a middleware stack.
+
+•	At the lowest machine virtualization (SSV) level, there are middleware that help reduce the overhead of virtualization. 
+
+•	SSV is useful and widely used, but it is costly.
+
+•	 The performance cost of virtualization, for I/O-intensive workloads in particular, can be heavy.
+
+•	Common approaches to solve the I/O virtualization overhead focus on the I/O stack, thereby missing optimization opportunities in the overall stack. 
+As an example, VAMOS(Virtualization aware middleware) , built by IBM, is a novel middleware architecture that runs its middleware modules at the hypervisor level. 
+•	VAMOS reduces I/O virtualization overhead by cutting down on the overall number of guest/ hypervisor switches for I/O intensive workloads.
+
+•	 Applying VAMOS to a database application improved its performance by up to 32 %. 
+
+•	Here, the middleware concept is extended to include software that does interprocess communication not necessary over a network.
+ 
+•	At the cluster computing or grid computing level, many types of work are done by middleware. 
+
+•	The parallel computing environments such as PVM(parallel Virtual Machine) and MPI(Message Passing Interface) are (HPC)(High Performance Computing) middleware by definition; the Hadoop system and the job scheduler such as Condor, LoadLeveler, and others are all middleware.
+
+•	 The HPC middleware fills the gap that the operating systems and the programming languages lack to support parallel computing. 
+
+•	At the cluster computing or grid computing level, many types of work are done by middleware. 
+
+•	The parallel computing environments such as PVM(parallel Virtual Machine) and MPI(Message Passing Interface) are (HPC)(High Performance Computing) middleware by definition; the Hadoop system and the job scheduler such as Condor, LoadLeveler, and others are all middleware.
+
+•	 The HPC middleware fills the gap that the operating systems and the programming languages lack to support parallel computing. 
+
+•	Many research works demonstrate a typical grid computing system and its components based on grid middleware before cloud computing.
+
+•	 A grid computing system aims to serve all kinds of applications.
+
+
 
 ##  Describe Evolution of IoT in the Cloud
 
@@ -466,17 +476,6 @@ Mobile Cloud Computing (MCC) is an infrastructure where both data storage and da
 - **AI and ML Integration:** Advanced analytics and machine learning integrated into IoT cloud services for predictive insights and automation.
 - **Current State:** Highly scalable, secure, and intelligent IoT ecosystems leveraging cloud, edge computing, and AI to drive innovations across industries.
 
-##  Compare IoT Red Ocean versus Blue Ocean
-
-**IoT Red Ocean:**
-- **Definition:** Highly competitive markets where companies compete over existing demand.
-- **Characteristics:** Intense competition, often price wars, incremental innovation.
-- **Examples:** Consumer smart home devices, fitness trackers.
-
-**IoT Blue Ocean:**
-- **Definition:** Creating new markets or niches with little or no competition.
-- **Characteristics:** Focus on innovation, creating new demand, differentiation.
-- **Examples:** Industrial IoT solutions for predictive maintenance, smart city infrastructure.
 
 
 ## Explain the term Cloud of Things?
@@ -513,6 +512,26 @@ Cloud computing offers several service models, each providing different levels o
 5. **Oracle IoT:** Oracle IoT provides a comprehensive platform for building and deploying IoT solutions, including device management, data ingestion, and analytics. It offers integration with other Oracle cloud services for end-to-end IoT application development.
 
 # unit 4 long:
+
+##  Compare IoT Red Ocean versus Blue Ocean
+
+
+| Aspect                     | Red Ocean Strategy                                      | Blue Ocean Strategy                                       |
+|----------------------------|---------------------------------------------------------|-----------------------------------------------------------|
+| **Market Space**           | Existing market space with fierce competition           | New market space with little to no competition             |
+| **Focus**                  | Competing in the existing market                        | Creating new demand and market space                      |
+| **Competition**            | High, with companies fighting for market share          | Low, as companies create new niches                       |
+| **Strategy**               | Differentiation and cost leadership to outperform rivals| Innovation and value creation to make competition irrelevant|
+| **Goal**                   | Capture and increase market share                       | Create new demand and expand market boundaries             |
+| **Products/Services**      | Similar to what competitors offer                       | Unique offerings that fulfill unmet needs                  |
+| **Technology**             | Incremental improvements on existing technologies       | Pioneering new technologies and applications               |
+| **Customer Base**          | Existing customers within the industry                  | New customer segments and untapped markets                 |
+| **Profit Potential**       | Limited by high competition                             | Higher potential due to lack of direct competition         |
+| **Cost Structure**         | High due to competitive pressures                       | Can be optimized through innovation                        |
+| **Value Proposition**      | Competing on existing value propositions                | Creating new value propositions                            |
+| **Risk**                   | Moderate to high, as market dynamics are known          | Higher initially, as market creation involves uncertainties|
+
+
 
 ## Define NIST’s SPI Architecture.
 
