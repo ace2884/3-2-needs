@@ -306,12 +306,17 @@ Unlike the OSI model which comprises seven layers, the TCP/IP model is structure
 
 ### 1.	Network Access Layer
 
-•	This is the bottom-most layer of the TCP/IP model architecture
-•	It is a combination of the Data Link and Physical Layer of the OSI model
-•	The physical transmission of data takes place at this layer
-•	Once the frames are transmitted by a network, encapsulating the IP datagram into these frames is done in this layer
-•	Also, the mapping of IP address into physical address is done here
-•	Mainly, the function of this layer is to transmit the data between two devices, connected in a network
+-	This is the bottom-most layer of the TCP/IP model architecture
+
+-	It is a combination of the Data Link and Physical Layer of the OSI model
+
+-	The physical transmission of data takes place at this layer
+
+-	Once the frames are transmitted by a network, encapsulating the IP datagram into these frames is done in this layer
+
+-	Also, the mapping of IP address into physical address is done here
+
+-	Mainly, the function of this layer is to transmit the data between two devices, connected in a network
 
 ### 2.	Internet Layer
 
@@ -320,8 +325,10 @@ Unlike the OSI model which comprises seven layers, the TCP/IP model is structure
 -	The logical transmission of data takes place at this level
 
 -	**IP**: One of the most important protocols as it detects the IP address of a device which is later used for internetwork connections. It is using this protocol that the path with which the data shall be transmitted is decided. There are two common IP versions which are used, To know the difference between IPv4 and IPv6, visit the linked article.
-•	**ARP**: It stands for Address Resolution Protocol. The physical address from the IP address can be determined using ARP. 
-•	**ICMP**: It stands for Internet Control Message Protocol and notification regarding datagram problems can be sent back to the user using this. Any issue with the network is immediately notified to the user by ICMP
+  
+-	**ARP**: It stands for Address Resolution Protocol. The physical address from the IP address can be determined using ARP. 
+
+-	**ICMP**: It stands for Internet Control Message Protocol and notification regarding datagram problems can be sent back to the user using this. Any issue with the network is immediately notified to the user by ICMP
    
 ### 3.	Host to Host Layer
 
