@@ -392,7 +392,7 @@ Mobile Cloud Computing (MCC) is an infrastructure where both data storage and da
 - The delivery of computing services (servers, storage, databases, networking, software, analytics, intelligence) over the internet ("the cloud") to offer faster innovation, flexible resources, and economies of scale.
 - **Characteristics:** On-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service.
 - **Deployment Models:** Public cloud, private cloud, hybrid cloud, community cloud.
--** Services:** Iaas,Paas,Saas
+- **Services:** Iaas,Paas,Saas
 
 ## Define The Cloud of Things Architectural Specification
 
