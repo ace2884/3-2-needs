@@ -17,28 +17,8 @@
   
 ## SWOT analysis of IoT.
 
+![Screenshot 2024-06-28 181828](https://github.com/ace2884/3-2-needs/assets/119153850/4fc44bf7-be8c-41ee-8001-8e8f65c6c47f)
 
-- **Strengths:**
-  - Enhanced efficiency and productivity.
-  - Real-time data collection and analysis.
-  - Improved decision-making processes.
-  - Cost savings through predictive maintenance.
-  
-- **Weaknesses:**
-  - Security vulnerabilities and potential for data breaches.
-  - High implementation and maintenance costs.
-  - Interoperability issues between different IoT devices and platforms.
-  
-- **Opportunities:**
-  - Expansion into new markets and industries.
-  - Development of new business models and services.
-  - Improved customer experiences through personalization.
-  
-- **Threats:**
-  - Rapid technological changes and obsolescence.
-  - Regulatory and compliance challenges.
-  - Privacy concerns among consumers.
-  - Potential for large-scale cyber-attacks.
 
 ## Telematics Terminal Architecture.
    
