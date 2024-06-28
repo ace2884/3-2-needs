@@ -41,9 +41,8 @@
   - Potential for large-scale cyber-attacks.
 
 ## Telematics Terminal Architecture.
-
-**Telematics Terminal Architecture:**
-
+   
+ 
 Telematics terminal architecture involves the integration of telecommunications and informatics to provide services and applications for vehicles.
 
 **Components:**
