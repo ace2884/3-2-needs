@@ -919,22 +919,6 @@ Middleware is the glue that connects the various tiers of a multitier architectu
 - **Dynamic Configuration:** Allows adding, removing, and updating components without restarting the system.
 - **Integration:** Supports integration with various IoT protocols and platforms.
 
-##  List out the standards of SCADA
-
-1. **Modbus:** Communication protocol for serial lines between devices.
-2. **DNP3:** Protocol for reliable communication in process automation systems.
-3. **IEC 60870:** Standards for telecontrol in electrical engineering and power systems.
-4. **IEC 61850:** Standard for communication networks in substations.
-5. **OPC UA:** Unified architecture for secure and reliable data exchange.
-
-
-##  Discuss Standards for M2M
-
-1. **ETSI M2M:** Provides a framework for interoperability and efficient M2M communication.
-2. **OneM2M:** Global standard for a common M2M service layer to ensure device interworking.
-3. **3GPP:** Defines LTE-M and NB-IoT for cellular M2M communication.
-4. **IEEE Standards:** Includes IEEE 802.15.4 for low-rate WPANs and IEEE 1901 for power line communication.
-5. **IETF CoAP:** Protocol for lightweight M2M communication over the internet.
 
 ##  List the Challenges of IoT Information Security
 
@@ -945,23 +929,7 @@ Middleware is the glue that connects the various tiers of a multitier architectu
 5. **Standardization:** Lack of unified security standards across different IoT ecosystems.
 
 
-## Differentiate WOT and IOT
-
-**Web of Things (WoT):**
-- **Definition:** WoT extends IoT by integrating smart devices with the web using standard web protocols.
-- **Protocol Usage:** Primarily uses HTTP, WebSockets, and other web standards.
-- **Data Integration:** Focuses on making IoT data accessible through web services and APIs.
-- **Interoperability:** Emphasizes the use of web technologies to achieve device interoperability.
-- **Example:** A smart thermostat that can be controlled through a web browser using RESTful APIs.
-
-**Internet of Things (IoT):**
-- **Definition:** IoT refers to the network of physical objects embedded with sensors, software, and other technologies to connect and exchange data with other devices and systems over the internet.
-- **Protocol Usage:** Uses a variety of protocols including MQTT, CoAP, Zigbee, etc.
-- **Data Integration:** Focuses on connectivity and communication between devices.
-- **Interoperability:** Often faces challenges due to the diversity of protocols and standards used.
-- **Example:** A smart thermostat that communicates with a home automation system using MQTT.
-
-  ##  Write a short note on Framework for WSN
+  ##  Framework for WSN
 
 **Framework for Wireless Sensor Networks (WSN): overview**
 - **Architecture:** Comprises sensor nodes, communication protocols, and data processing units.
@@ -1052,7 +1020,7 @@ Wireless Sensor Networks (WSNs) are composed of spatially distributed autonomous
 
 
 
-## List out the standards of SCADA.
+## standards of SCADA.
 
 Supervisory Control and Data Acquisition (SCADA) systems are critical for industrial automation, enabling the control and monitoring of industrial processes and infrastructure. Various standards ensure the reliability, interoperability, security, and efficiency of SCADA systems. Here are some key standards related to SCADA:
 
@@ -1140,7 +1108,7 @@ Supervisory Control and Data Acquisition (SCADA) systems are critical for indust
   
      
   
-## Discuss Standards for M2M.
+##  Standards for M2M.
 
 
 Machine-to-Machine (M2M) communication is a foundational technology for the Internet of Things (IoT), enabling devices to exchange information and perform actions without human intervention. For M2M communication to be effective, various standards and protocols have been developed to ensure interoperability, security, and efficiency. Here are some key standards and protocols for M2M communication:
