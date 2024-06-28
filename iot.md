@@ -355,18 +355,18 @@ Mobile Cloud Computing (MCC) is an infrastructure where both data storage and da
 
 ## Explain Vertical Applications
 
-•	Telematics, fleet management, transportation
-•	 Smart grid, energy efficiency
-•	 Smarter planet
-•	 Environmental protection 
-•	 Logistics, retail
-•	 Healthcare
-•	Security/surveillance 
-•	 Resources (such as water resource management, etc.) 
-•	Industrial automation 
-•	Home automation, buildings 
-•	Food safety, agriculture 
-•	 Security surveillance .
+-	Telematics, fleet management, transportation
+-	 Smart grid, energy efficiency
+-  Smarter planet
+-	 Environmental protection 
+-	 Logistics, retail
+-	 Healthcare
+-	Security/surveillance 
+-	 Resources (such as water resource management, etc.) 
+-	Industrial automation 
+-	Home automation, buildings 
+-	Food safety, agriculture 
+-	 Security surveillance .
 
 ##  Define NIST’s SPI Architecture
 
@@ -410,25 +410,6 @@ Mobile Cloud Computing (MCC) is an infrastructure where both data storage and da
 
 ## Draw the Cloud Middleware 
 
-```
-+----------------------+
-| Presentation Layer   |
-| (User Interface)     |
-+----------------------+
-| Middleware Layer     |
-| (APIs, Messaging,    |
-|  Authentication)     |
-+----------------------+
-| Application Layer    |
-| (Business Logic)     |
-+----------------------+
-| Data Layer           |
-| (Databases, Storage) |
-+----------------------+
-| Infrastructure Layer |
-| (Servers, Networks)  |
-+----------------------+
-```
 
 ![image](https://github.com/ace2884/3-2-shorts/assets/119153850/01850c0a-b93a-43b9-9b74-88eaf1ae3f38)
 
@@ -499,17 +480,6 @@ Cloud computing offers several service models, each providing different levels o
 4. **Function as a Service (FaaS):** Also known as serverless computing, FaaS allows developers to deploy individual functions or pieces of code in response to events or triggers. Developers are charged based on the execution time and resources used.
 
 
-## Brief cloud providers for IoT.
-
-1. **Amazon Web Services (AWS):** AWS IoT provides a comprehensive set of services for building and managing IoT applications, including device management, data processing, and analytics.
-
-2. **Microsoft Azure:** Azure IoT offers a suite of IoT services and solutions for connecting, monitoring, and managing IoT devices and data. It includes capabilities for device provisioning, telemetry processing, and edge computing.
-
-3. **Google Cloud Platform (GCP):** Google Cloud IoT provides tools and services for connecting, managing, and analyzing IoT devices and data. It offers features such as device registry, message brokering, and data visualization.
-
-4. **IBM Cloud:** IBM IoT Platform offers a range of services for connecting, securing, and analyzing IoT data. It includes device management, data integration, and AI-driven analytics capabilities.
-
-5. **Oracle IoT:** Oracle IoT provides a comprehensive platform for building and deploying IoT solutions, including device management, data ingestion, and analytics. It offers integration with other Oracle cloud services for end-to-end IoT application development.
 
 # unit 4 long:
 
