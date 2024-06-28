@@ -349,17 +349,6 @@ Mobile Cloud Computing (MCC) is an infrastructure where both data storage and da
 
 The term 'XaaS' stands for **"Anything as a Service"**. It is a general term used to describe the delivery of various services over the internet or a network as a subscription-based model. The "X" in XaaS can be replaced with different service types, such as Software as a Service (SaaS), Platform as a Service (PaaS), Infrastructure as a Service (IaaS), and others. XaaS enables organizations to access and utilize services on-demand without the need to invest in and maintain physical infrastructure or software.
 
-## List out the cloud service models.
-
-Cloud computing offers several service models, each providing different levels of abstraction and management responsibilities. The main cloud service models are:
-
-1. **Infrastructure as a Service (IaaS):** Provides virtualized computing resources over the internet, including virtual machines, storage, and networking. Users have control over operating systems, applications, and configurations, while the cloud provider manages the infrastructure.
-
-2. **Platform as a Service (PaaS):** Offers a platform for developing, deploying, and managing applications without the complexity of infrastructure management. PaaS providers offer tools, frameworks, and runtime environments for building and scaling applications.
-
-3. **Software as a Service (SaaS):** Delivers software applications over the internet on a subscription basis. Users access and use applications hosted in the cloud without the need for installation or maintenance.
-
-4. **Function as a Service (FaaS):** Also known as serverless computing, FaaS allows developers to deploy individual functions or pieces of code in response to events or triggers. Developers are charged based on the execution time and resources used.
 
 
 ##  Compare IoT Red Ocean versus Blue Ocean
