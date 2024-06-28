@@ -793,26 +793,6 @@ Cloud services play a crucial role in the Internet of Things (IoT) ecosystem by 
 
 ## Deployment Models
 
-**Overview**
-
-1. **Public Cloud:**
-   - **Description:** Services provided over the public internet and shared across multiple organizations.
-   - **Examples:** AWS IoT, Google Cloud IoT Core.
-
-2. **Private Cloud:**
-   - **Description:** Cloud infrastructure operated solely for a single organization, providing greater control and security.
-   - **Examples:** On-premises IoT solutions, private data centers.
-
-3. **Hybrid Cloud:**
-   - **Description:** Combines public and private clouds, allowing data and applications to be shared between them.
-   - **Examples:** A company using private cloud for sensitive data and public cloud for large-scale data processing.
-
-4. **Community Cloud:**
-   - **Description:** Shared infrastructure for a specific community with common concerns (security, compliance).
-   - **Examples:** Government agencies or healthcare organizations sharing IoT infrastructure.
-
-
-
 #### 1. Public Cloud
 
 - The public cloud is a cloud deployment model where services are delivered over the internet and shared across multiple organizations (tenants). The cloud infrastructure is owned and managed by a third-party cloud service provider.
@@ -951,19 +931,20 @@ Middleware is the glue that connects the various tiers of a multitier architectu
 
 ## Difference between IoT and WoT
 
-**IoT (Internet of Things):**
-- **Focus:** Connecting physical devices to the internet.
-- **Communication:** Various protocols like MQTT, CoAP, and proprietary ones.
-- **Interoperability:** Often faces challenges due to diverse standards.
-- **Data Management:** Typically centralized in cloud platforms.
-- **Example:** Smart home devices controlled via a mobile app.
 
-**WoT (Web of Things):**
-- **Focus:** Integrating IoT devices using web standards.
-- **Communication:** Primarily web protocols like HTTP and WebSockets.
-- **Interoperability:** Enhanced through standardized web APIs.
-- **Data Management:** Emphasizes decentralized and web-based approaches.
-- **Example:** Devices accessible and controllable through web browsers.
+| Feature                    | Internet of Things (IoT)                                        | Web of Things (WoT)                                               |
+|----------------------------|----------------------------------------------------------------|-------------------------------------------------------------------|
+| **Definition**             | A network of physical objects connected via the internet.      | A framework to use web standards to connect and interact with IoT devices. |
+| **Scope**                  | Encompasses all connected devices and their communication.     | Focuses on integrating IoT devices with web technologies.         |
+| **Communication Protocols**| Uses various protocols (e.g., MQTT, CoAP, Zigbee, Bluetooth).  | Primarily uses web protocols (e.g., HTTP, WebSockets).            |
+| **Standards**              | Less standardized, multiple industry-specific protocols.       | Relies on existing web standards (e.g., RESTful APIs).            |
+| **Interoperability**       | Can be challenging due to diverse protocols and standards.     | Easier due to reliance on web standards and protocols.            |
+| **Data Accessibility**     | Often limited to specific applications or platforms.           | Enhanced by using web technologies for broader accessibility.     |
+| **Development Complexity** | Requires expertise in various IoT-specific protocols.          | Simplifies development by leveraging widespread web technologies. |
+| **Scalability**            | Can be complex and costly due to varied technologies.          | More scalable with the use of web-based solutions.                |
+| **Security**               | Security models vary; often device-specific.                   | Leverages existing web security standards and practices.          |
+| **Examples**               | Smart home devices, industrial sensors.                        | WoT frameworks (e.g., Mozilla WebThings, WoT Thing Description).  |
+
 
 ## Mention Issues with IoT Standardization
 
