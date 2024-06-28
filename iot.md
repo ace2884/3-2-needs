@@ -1,7 +1,7 @@
 # unit 1,2,2.5 shorts :
 
 
-### IoT with its applications.
+## IoT with its applications.
 
 **Internet of Things (IoT):** The Internet of Things refers to the network of interconnected devices that can collect and exchange data over the internet. These devices range from everyday household items to industrial machinery.
 
@@ -14,8 +14,8 @@
 - **Agriculture:** Smart irrigation systems, crop monitoring.
 - **Connected Vehicles:** Enhanced navigation, vehicle-to-vehicle communication.
 - **Retail:** Inventory management, personalized marketing.
-- 
-### SWOT analysis of IoT.
+  
+## SWOT analysis of IoT.
 
 
 - **Strengths:**
@@ -40,7 +40,7 @@
   - Privacy concerns among consumers.
   - Potential for large-scale cyber-attacks.
 
-### Telematics Terminal Architecture.
+## Telematics Terminal Architecture.
 
 **Telematics Terminal Architecture:**
 
@@ -53,14 +53,14 @@ Telematics terminal architecture involves the integration of telecommunications 
 - **User Interface:** Display and controls for the driver.
 - **Data Storage:** Logs data for analysis.
   
-### different versions of the vehicle-to-grid concept.
+## different versions of the vehicle-to-grid concept.
 
 **Versions of Vehicle-to-Grid (V2G) Concept:**
 1. **Unidirectional V2G:** Vehicles only receive energy from the grid but do not send energy back.
 2. **Bidirectional V2G:** Vehicles can both draw energy from and supply energy to the grid.
 3. **V2H (Vehicle-to-Home):** Vehicles supply power directly to a home, often in cases of power outages.
 
-###  IoT paradigm and related networks.
+##  IoT paradigm and related networks.
 
 
 The IoT paradigm involves interconnected devices and systems working together to collect, process, and analyze data to make informed decisions.
@@ -74,7 +74,7 @@ The IoT paradigm involves interconnected devices and systems working together to
 ![Screenshot 2024-06-27 200438](https://github.com/ace2884/3-2-needs/assets/119153850/3d5c4834-21b9-44c2-a919-0aeea88e385a)
 
 
-###  Body Sensor Network with diagram
+##  Body Sensor Network with diagram
 
 
 ![Screenshot 2024-06-27 194624](https://github.com/ace2884/3-2-needs/assets/119153850/b7247ff2-3a2b-4e78-81af-7c5c54c5aba4)
@@ -94,7 +94,7 @@ attacks
 
 
 
-###  evolution of Identification 
+##  evolution of Identification 
 
 Identification has evolved from basic visual identification to advanced digital systems.
 
@@ -223,9 +223,7 @@ For example, 3GPP(3rd Generation Partnership Project) covers only cellular wirel
 - **Role:** Secure data and device communications.
 
 
-# unit 4 short :
-
-
+# unit 4 :
 
 ## **Open Source Projects for IoT:**
 - **ThingsBoard**
