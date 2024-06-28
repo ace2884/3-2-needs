@@ -1109,12 +1109,6 @@ Machine-to-Machine (M2M) communication is a foundational technology for the Inte
      - **6LoWPAN (IPv6 over Low-Power Wireless Personal Area Networks):** Enables IPv6 communication over IEEE 802.15.4 networks.
      - **RPL (Routing Protocol for Low-Power and Lossy Networks):** Designed for efficient routing in IoT networks.
 
-6. **OASIS (Organization for the Advancement of Structured Information Standards):**
-   - **Description:** OASIS develops open standards for information exchange.
-   - **Features:**
-     - **MQTT (Message Queuing Telemetry Transport):** A lightweight messaging protocol for small sensors and mobile devices, optimized for low-bandwidth, high-latency networks.
-     - **AMQP (Advanced Message Queuing Protocol):** A protocol for message-oriented middleware, ensuring reliable communication between distributed systems.
-
 ### Security Standards for M2M
 
 1. **OMA (Open Mobile Alliance):**
