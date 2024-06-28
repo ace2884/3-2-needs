@@ -264,20 +264,6 @@ Sensor Network Architecture refers to the structural design of networks composed
 - **Bluetooth 5.0:** Enhanced range, speed, and broadcasting capacity.
 
 
-## **Issues with IoT Standardization**: 
-Challenges with IoT standardization include interoperability issues between different devices and platforms, security concerns related to data privacy and cyber threats, and the complexity of managing diverse networks and protocols.
-Standardization is like a double-edged sword:
-  Critical to market development 
- But it may threaten innovation and inhibit change when standards are accepted by the market 
- Standardization and innovation are like yin & yang
-  They could be contradictory to each other in some cases, even though this observation is debatable 
-Different consortia, forums and alliances have been doing standardization in their own limited scope 
-For example, 3GPP(3rd Generation Partnership Project) covers only cellular wireless networks while EPCglobal’s middleware covers only RFID events 
- Even within same segment, there are more than one consortium or forum doing standardization without enough communication with each other
-  Some are even competing with each other 
- Some people believe that the IoT concept is well established 
- However, some gray zones remain in the definition, especially which technology should be included
-
 ## comparison between UDP (User Datagram Protocol) and TCP (Transmission Control Protocol):
 
 | Feature                   | UDP                                       | TCP                                                |
@@ -291,6 +277,57 @@ For example, 3GPP(3rd Generation Partnership Project) covers only cellular wirel
 | **Error Checking**        | Limited error checking (checksum).        | Extensive error checking (checksum, sequence numbers, acknowledgments). |
 | **Usage**                 | Used for real-time applications (e.g., VoIP, video streaming). | Used for applications requiring reliable data transfer (e.g., web browsing, file transfer). |
 | **Examples**              | DNS, VoIP (Voice over IP), online games.  | HTTP, HTTPS, FTP, email (SMTP), SSH.               |
+
+
+## TCP
+
+TCP is used for organizing data in a way that ensures the secure transmission between the server and client. It guarantees the integrity of data sent over the network, regardless of the amount. For this reason, it is used to transmit data from other higher-level protocols that require all transmitted data to arrive
+
+### Layers of the TCP/IP Model
+Unlike the OSI model which comprises seven layers, the TCP/IP model is structured with four different layers. These four layers are:
+
+### 1.	Network Access Layer
+
+•	This is the bottom-most layer of the TCP/IP model architecture
+•	It is a combination of the Data Link and Physical Layer of the OSI model
+•	The physical transmission of data takes place at this layer
+•	Once the frames are transmitted by a network, encapsulating the IP datagram into these frames is done in this layer
+•	Also, the mapping of IP address into physical address is done here
+•	Mainly, the function of this layer is to transmit the data between two devices, connected in a network
+
+### 2.	Internet Layer
+
+-	It is the second layer of the TCP/IP model and this layer is parallel to the Network Layer of the OSI Model, in terms of the structure
+-	Sending the data packets to their destination network is the main function of the Internet layer
+-	The logical transmission of data takes place at this level
+
+-	**IP**: One of the most important protocols as it detects the IP address of a device which is later used for internetwork connections. It is using this protocol that the path with which the data shall be transmitted is decided. There are two common IP versions which are used, To know the difference between IPv4 and IPv6, visit the linked article.
+•	**ARP**: It stands for Address Resolution Protocol. The physical address from the IP address can be determined using ARP. 
+•	**ICMP**: It stands for Internet Control Message Protocol and notification regarding datagram problems can be sent back to the user using this. Any issue with the network is immediately notified to the user by ICMP
+   
+### 3.	Host to Host Layer
+
+-	This layer is parallel to the transport layer of the OSI Model
+-	The error-free delivery of data is the main function of this layer
+-	There are two main protocols present in this layer:
+-	**TCP**: Another integral part, the Transmission Control Protocol is a reliable communication protocol. It manager the flow of data, i.e. the sequence and segmentation of the data
+-	**UDP**: It is a connection-free protocol which makes it cost-effective but less reliable. 
+
+### 4.	Application Layer
+
+•	The topic three layers of the OSI Model: Application, Presentation and Sessions, when combined together, they perform similar functions as the Application Layer of the TCP/IP model
+•	node-to-node communication based on the user-interface 
+
+-	**HTTP**: Hypertext Transfer Protocol is used to manage the communication between the server and web browsers
+-	**NTP**: Network Time Protocol can set one standard time source in our computer, which enables sync between the server and the user
+-	**TELNET**: Telecommunication Network is used to have access to files present of the Telnet network and manage them on internet
+-	**FTP**: File Transfer Protocol, as the name suggests allows easy transferring of files
+
+
+- Secure Shell (SSH), File Transfer Protocol (FTP), Telnet: For peer-to-peer file sharing, and, in Telnet's case, logging into another user's computer to access a file.
+- Simple Mail Transfer Protocol (SMTP), Post Office Protocol (POP), Internet Message Access Protocol (IMAP): For sending and receiving email.
+-	HTTP: For web access.
+
 
 
 ## **Explain Protocols used in Four Pillars of IoT**
