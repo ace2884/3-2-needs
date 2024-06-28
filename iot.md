@@ -66,10 +66,13 @@
 
 **M2M**
 - it uses devices (such as an in-vehicle gadget) to capture events (such as an engine disorder), via a network (mostly cellular wireless networks, sometimes wired or hybrid) connection to a central server (software program), that translates the captured events into meaningful information (alert failure to be fixed).
+  
 **RFID**
-- it uses radio waves to transfer data from an electronic tag attached to an object to a central system through a reader for the purpose of identifying and tracking the object. 
+- it uses radio waves to transfer data from an electronic tag attached to an object to a central system through a reader for the purpose of identifying and tracking the object.
+  
 **WSN**
-  - It consists of spatially distributed autonomous sen sors to monitor physical or environmental conditions, such as temperature, pressure, motion, or pollutants, and to cooperatively pass their data through the network, mostly short-range wireless mesh networks, sometimes wired or hybrid, to a main location. 
+  - It consists of spatially distributed autonomous sen sors to monitor physical or environmental conditions, such as temperature, pressure, motion, or pollutants, and to cooperatively pass their data through the network, mostly short-range wireless mesh networks, sometimes wired or hybrid, to a main location.
+    
 **SCADA**
 - It is an autonomous system based on closed-loop control theory or a smart system or a CPS that connects, monitors, and controls equipment via the network (mostly wired short-range networks, a.k.a., field buses, sometimes wireless or hybrid) in a facility such as a plant or a building
 
